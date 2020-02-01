@@ -24,6 +24,10 @@
         a{text-decoration: none;color: #3f51b5;}
         .sitelist{line-height: 2;padding: 0}
         .sitelist li{list-style: inside;}
+        .top{margin: 0 30px;}
+        @media(max-width:1024px){
+            .top{margin: 0;}
+        }
     </style>
 </head>
 <body>
@@ -44,15 +48,15 @@
         <br>
         <h3>사이트</h3>
         <ul class="sitelist">
-            <li><a href="http://www.cdc.go.kr/contents.es?mid=a21111050500">질병관리본부 홈페이지</a></li>
-            <li><a href="./search.html">선별진료소 검색하기</li>
-            <li><a href="http://www.mohw.go.kr/react/popup_200128.html">선별진료소 현황</a></li>
+            <li><a href="http://www.cdc.go.kr/contents.es?mid=a21111050500" target="_blank">질병관리본부 홈페이지</a></li>
+            <li><a href="./search.html" target="_blank">선별진료소 검색하기</li>
+            <li><a href="http://www.mohw.go.kr/react/popup_200128.html" target="_blank">선별진료소 현황</a></li>
         </ul>
         <br>
         <h3>데이터 파일</h3>
-        <p>다운로드 : <a href="./data.json">보기 (.json)</a></p>
-        <h4>데이터 형식 (버전 0.0.1)</h4>
-        <p>개발자들이 주로 쓰는 json 형식, 어렵지않다. 표를 글자로 표현한다고 생각하면 쉽다.</p>
+        <p>다운로드 : <a href="./data.json" target="_blank">보기 (.json)</a></p>
+        <p>개발자들이 주로 쓰는 json 형식이고 어렵지않다. 표를 글자로 표현한다고 생각하면 쉽다.</p>
+        <h4>형식 (버전 0.0.1)</h4>
         <ul style="background-color: #F5F5F5;padding: 20px;border-radius: 20px;">
             {
                 <li>"num":1,<span class="notjson"> => 첫번째 감염자</span></li>
@@ -68,7 +72,7 @@
         </ul>
         <br>
         <h3>제보</h3>
-        <p>제보 페이지는 며칠이내 생성예정</p>
+        <p><a href="https://docs.google.com/forms/d/e/1FAIpQLSf0tnYWEV_3isDW87uY4wBWWy27e5Hog8y23Ta7oy4aQdMJ9A/viewform" target="_blank">제보 / 수정요청 / 건의 하러가기</a></p>
         <br>
         <h3>사용한 오픈소스</h3>
         <p>treant-js (MIT) https://fperucic.github.io/treant-js</p>
