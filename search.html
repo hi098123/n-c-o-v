@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, width=device-width">
+    <title>2019-nCov 한국 감염표</title>
+    <link rel="stylesheet" href="Treant.css">
+    <link rel="stylesheet" href="cc.css">
+    <meta name="description" content="신종 코로나(우한 폐렴) 감염자들의 관계도를 그린 페이지입니다.">
+    <meta property="og:url" content="https://ncov-korea.cf/" >
+    <meta property="og:site_name" content="2019-nCov 한국 감염표" >
+    <meta property="og:title" content="2019-nCov 한국 감염표" >
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-136150577-3"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-136150577-3');
+    </script>
+    <script data-ad-client="ca-pub-2722856117249943" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <style>
+        a{text-decoration: none;color: #3f51b5;}
+        .sitelist{line-height: 2;padding: 0}
+        .sitelist li{list-style: inside;}
+        #table{overflow-x: auto;width: 100%;}
+        #srchrslt{padding: 0 20px}
+        .tb_base {width:100%; margin:0; border-collapse:separate; border-top:1px solid #363a41; color:#393939;}
+.tb_base caption em{display:block; margin-bottom:10px; text-align:center; color:#333; font-style:normal;}
+.tb_base caption span{position:absolute; top:-9999px; overflow:hidden; height:0px; width:0px;}
+.tb_base thead th,.tb_base thead td {padding:7px 5px 9px 5px; background:#f0f1f5; border-left:1px solid #d7d7d7; border-bottom:1px solid #d7d7d7; text-align:center;  vertical-align:middle; }
+.tb_base thead th.bl_none {border-left:0;}
+.tb_base tbody th{padding:7px 5px 9px 16px; background:#f0f1f5; border-bottom:1px solid #d7d7d7; text-align:left; vertical-align:middle; }
+.tb_base tbody th.ta_l {text-align:left; }
+.tb_base tbody td {position:relative; padding:7px 10px 9px 15px; border-left:1px solid #d7d7d7; border-bottom:1px solid #d7d7d7; vertical-align:middle; word-wrap:break-word; word-break:keep-all;}
+.tb_base tbody td .tb_btn{position:absolute; top:5px; right:10px;}
+.tb_base tfoot th {padding:7px 5px 9px 5px; background:#f4f9ff; border-right:1px solid #d7d7d7; border-bottom:1px solid #d7d7d7; color:#00539f; text-align:center;  vertical-align:middle;}
+.tb_base tfoot td {padding:7px 5px 9px 5px; text-align:center; font-weight:bold; background:#f4f9ff; border-left:1px solid #d7d7d7; border-bottom:1px solid #d7d7d7;  color:#00539f; vertical-align:middle;}
+.tb_base tfoot.tb_right td {padding:7px 10px 9px 5px; text-align:right; }
+.tb_base td table{width:100%; margin:5px 0 10px 0; border-collapse:collapse; border-top:1px solid #9c9c9c; font-size:12px; }
+.tb_base td table thead th {padding:5px 5px 7px 5px; text-align:center; background:#f8f8f8; color:#00539f; }
+.tb_base td table tbody th {padding:5px 5px 7px 10px; background:none;}
+.tb_base td table tbody td {padding:5px 5px 7px 10px; color:#666; }
+.tb_base tbody tr.tb_sum,.tb_base tbody tr.tb_sum th, .tb_base tfoot tr.tb_sum td,.tb_base tfoot tr.tb_sum th {font-weight:bold; background:#fdf5fa; color:#a01933;}
+.tb_base tbody tr.tb_sum2,.tb_base tbody tr.tb_sum2 th, .tb_base tfoot tr.tb_sum2 td,.tb_base tfoot tr.tb_sum2 th {font-weight:bold; background:#f0fdfa; color:#07775d;}
+/* tdody th만 가운데 정렬 */
+.tb_base tbody.th_center th {position:relative; padding:7px 10px 9px 10px; border-bottom:1px solid #d7d7d7; vertical-align:middle; text-align:center;;}
+/* 전체 가운데정렬 */
+.tb_base tbody.tb_center th {position:relative; padding:7px 10px 9px 10px; border-bottom:1px solid #d7d7d7; vertical-align:middle; text-align:center;}
+.tb_base tbody.tb_center td {position:relative; padding:7px 5px 9px 5px; border-left:1px solid #d7d7d7; border-bottom:1px solid #d7d7d7; vertical-align:middle; text-align:center;}
+.tb_base tbody.tb_center td.ta_l {padding:7px 10px 9px 15px; text-align:left;}
+/* 전체 오른쪽정렬 */
+.tb_base tbody.tb_right td {position:relative; padding:7px 10px 9px 5px; border-left:1px solid #d7d7d7; border-bottom:1px solid #d7d7d7; vertical-align:middle; text-align:right;}
+/* 테이블 정렬 및 라인 정리  */
+.tb_base tbody td.ta_c {padding:7px 5px 9px 10px; text-align:center;}
+.tb_base tbody td.ta_r {padding:7px 10px 9px 10px; text-align:right;}
+.tb_base tbody td.bl_none {border-left:0;}
+.tb_base tbody th.th_bl {border-left:1px solid #d7d7d7;}
+.tb_base tbody th.ta_c {padding:7px 5px 9px 10px; text-align:center;}
+.tb_base tbody th.th_none { background-color:#fff; font-weight:normal;border-left:1px solid #d7d7d7;}
+
+.tb_base td .btn_inline {margin-bottom:0;}
+.tb_base td ul {margin-top:5px;}
+.tb_base td ul li {margin-bottom:5px; }
+/* 테이블 상단 단위 및 정보 전달  */
+.tb_unit_wrap {position:relative; padding-top:23px; margin-top:-22px; }
+.tb_unit_wrap .tb_unit, .tb_unit_wrap .tb_unit2 {position:absolute; top:0; right:0; font-size:13px; text-align:left; z-index:65;}
+.tb_unit_wrap.unit_reset{margin-top:0; }
+
+.srchbtn{padding: 6px;margin-left: 20px;cursor: pointer;background-color: #2196F3;border-radius: 5px;}
+.srchbtn:hover{background-color:#03a9f4;}
+
+</style>
+</head>
+<body>
+    <h1 style="text-align: center;padding: 20px 0 10px;margin: 0;background-color: #333;color: #fff;"><span style="display: inline-block;">신종 코로나 바이러스</span> <span style="display: inline-block;">선별진료소 현황</span> <span style="display: block;"><a href="https://www.mohw.go.kr/react/popup_200128.html" style="color: #03a9f4;font-size: 16px;">(20년 1월 31일 18:00 기준)</a></span></h1>
+    <table colspan="3" style="background-color: #333;color: #fff;width: 100%;" cellpadding="10">
+        <tbody><tr>
+            <td style="width: 20px">&nbsp;</td>
+            <td style="padding: 10px 0 12px;"><input type="text" style="padding: 7px;border: 0;border-radius: 5px;width: 100%;" id="address" onkeyup="if (window.event.keyCode == 13) {search()}" placeholder="검색어를 입력하세요 (지역, 병원명, 전화번호 검색가능)"></td>
+            <td style="width: 100px;padding: 10px 0 12px;"><span class="srchbtn" onclick="search()">검색하기</span></td>
+        </tr></tbody></table>
+    <div id="srchrslt"></div>
+    <div id="table"></div>
+    <script>
+        (function(){
+            var xhr =new XMLHttpRequest;
+            xhr.open("GET" , './table.html' , true);
+            xhr.onreadystatechange = function() {
+                if(xhr.readyState == 4){
+                    if(xhr.status == 200){
+                        document.getElementById("table").innerHTML=xhr.responseText;
+                        if(window.location.hash!="" && window.location.hash!="#"){
+                            document.getElementById("address").value=decodeURIComponent(window.location.hash.substr(1));
+                            search();
+                        }
+                    }else{
+                        alert("데이터 로딩에 실패하였습니다.")
+                    }
+                }
+            }
+            xhr.send();
+        })();
+        function search(){
+            var name=document.getElementById("address").value;
+            var arr=document.getElementById("table").getElementsByTagName("tr");
+            if(name.length==0){
+                document.getElementById("srchrslt").innerHTML="";
+                for (var i = 1; i < arr.length; i++) {
+                    arr[i].style.display="";
+                }
+            }
+            var cou=0;
+            for (var i = 1; i < arr.length; i++) {
+                arr[i].style.display="none";
+                if(arr[i].innerText.indexOf(name)!=-1){
+                    cou++
+                    arr[i].style.display="";
+                }
+            }
+            window.location.hash=name;
+            document.getElementById("srchrslt").innerHTML="<h3>\""+name+"\" 검색결과 "+cou+" 건</h3>";
+        }
+    </script>
+</body>
+</html>

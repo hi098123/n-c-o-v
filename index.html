@@ -45,7 +45,8 @@
         <h3>사이트</h3>
         <ul class="sitelist">
             <li><a href="http://www.cdc.go.kr/contents.es?mid=a21111050500">질병관리본부 홈페이지</a></li>
-            <li><a href="http://www.mohw.go.kr/react/popup_200128.html">선별진료소 현황</a> Ctrl+F로 검색가</li>
+            <li><a href="./search.html">선별진료소 검색하기</li>
+            <li><a href="http://www.mohw.go.kr/react/popup_200128.html">선별진료소 현황</a> Ctrl+F로 검색가능합니다.</li>
         </ul>
         <br>
         <h3>데이터 파일</h3>
@@ -79,38 +80,40 @@
         var Jobj;
         var before_X=0;
         Arrs.push(JSON.parse('{"text": {"cn": "2019-nCov","name":""},"HTMLclass":"title"}'));
-        var xhr =new XMLHttpRequest;
-        xhr.open("GET" , './data.json' , true);
-        xhr.onreadystatechange = function() {
-            if(xhr.readyState == 4){
-                if(xhr.status == 200){
-                    Jobj=JSON.parse(xhr.responseText);
-                    document.getElementById("update").innerText="최근 업데이트 : "+Jobj.info.update;
-                    for (var i = 0; i < Jobj.data.length; i++) {
-                        Arrs.push(JSON.parse('{}'));
-                        Arrs[Arrs.length-1].text=JSON.parse('{"name": "'+Jobj.data[i].num+' ('+Jobj.data[i].age+'세)"}');
-                        //,"date":"'+Jobj.data[i].confirmDate+'"
-                        Arrs[Arrs.length-1].image="./"+Jobj.data[i].sex+".png";
-                        Arrs[Arrs.length-1].parent=Arrs[Jobj.data[i].parent];
-                        Arrs[Arrs.length-1].HTMLclass="wuhan_"+Jobj.data[i].wuhan;
-                        /*if(i==8){
-                            Arrs[Arrs.length-1].childrenDropLevel=2;
-                        }*/
-                    }
-                    Arrs.push(JSON.parse('{"container": "#nCov","nodeAlign": "BOTTOM","connectors": {"type": "step"},"node": {"HTMLclass": "node1"}}'));
-                    new Treant( Arrs );
-                    before_X=window.innerWidth;
+        (function(){
+            var xhr =new XMLHttpRequest;
+            xhr.open("GET" , './data.json' , true);
+            xhr.onreadystatechange = function() {
+                if(xhr.readyState == 4){
+                    if(xhr.status == 200){
+                        Jobj=JSON.parse(xhr.responseText);
+                        document.getElementById("update").innerText="최근 업데이트 : "+Jobj.info.update;
+                        for (var i = 0; i < Jobj.data.length; i++) {
+                            Arrs.push(JSON.parse('{}'));
+                            Arrs[Arrs.length-1].text=JSON.parse('{"name": "'+Jobj.data[i].num+' ('+Jobj.data[i].age+'세)"}');
+                            //,"date":"'+Jobj.data[i].confirmDate+'"
+                            Arrs[Arrs.length-1].image="./"+Jobj.data[i].sex+".png";
+                            Arrs[Arrs.length-1].parent=Arrs[Jobj.data[i].parent];
+                            Arrs[Arrs.length-1].HTMLclass="wuhan_"+Jobj.data[i].wuhan;
+                            /*if(i==8){
+                                Arrs[Arrs.length-1].childrenDropLevel=2;
+                            }*/
+                        }
+                        Arrs.push(JSON.parse('{"container": "#nCov","nodeAlign": "BOTTOM","connectors": {"type": "step"},"node": {"HTMLclass": "node1"}}'));
+                        new Treant( Arrs );
+                        before_X=window.innerWidth;
 
-                    var nodes=document.getElementsByClassName("node");
-                    for (var i = 0; i < nodes.length; i++) {
-                        nodes[i].addEventListener('click', MsgAlert);
+                        var nodes=document.getElementsByClassName("node");
+                        for (var i = 0; i < nodes.length; i++) {
+                            nodes[i].addEventListener('click', MsgAlert);
+                        }
+                    }else{
+                        alert("데이터 로딩에 실패하였습니다.")
                     }
-                }else{
-                    alert("데이터 로딩에 실패하였습니다.")
                 }
             }
-        }
-        xhr.send();
+            xhr.send();
+        })();
         window.addEventListener('resize',function (){
             if(before_X!=window.innerWidth){
                 Treant( Arrs );
