@@ -12,7 +12,7 @@ abbr,acronym { border:0; }
 body { background: #fff; }
 /* optional Container STYLES */
 .chart { margin: 0; }
-.Treant > .node { background-color: #222;color: #fff;cursor: pointer; }
+.Treant > .node { cursor: pointer; }
 .Treant > p { font-weight: bold; font-size: 12px; }
 .node-name { font-weight: bold;line-height: 2;}
 
@@ -30,7 +30,7 @@ body { background: #fff; }
 .node1 img{
 	width: 64px;
 }
-.title{width: 200px !important;cursor: default !important;}
+.title{width: 200px !important;cursor: default !important;background-color: #b71c1c;color: #fff;border: 0;}
 .node-cn{text-align: center;background-color: #b71c1c;font-size: 1.5em;}
 .node-name2,.node-name{text-align: center}
 .node-date{font-size: 11px;}
