@@ -94,7 +94,8 @@
                             //,"date":"'+Jobj.data[i].confirmDate+'"
                             Arrs[Arrs.length-1].image="./"+Jobj.data[i].sex+".png";
                             Arrs[Arrs.length-1].parent=Arrs[Jobj.data[i].parent];
-                            Arrs[Arrs.length-1].HTMLclass="wuhan_"+Jobj.data[i].wuhan;
+                            var bool_wuhan=(Jobj.data[i].from=="우한 방문"?true:false);
+                            Arrs[Arrs.length-1].HTMLclass="wuhan_"+bool_wuhan;
                             /*if(i==8){
                                 Arrs[Arrs.length-1].childrenDropLevel=2;
                             }*/
