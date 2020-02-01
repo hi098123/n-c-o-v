@@ -78,7 +78,7 @@
     <table colspan="3" style="background-color: #333;color: #fff;width: 100%;" cellpadding="10">
         <tbody><tr>
             <td style="width: 20px">&nbsp;</td>
-            <td style="padding: 10px 0 12px;"><input type="text" style="padding: 7px;border: 0;border-radius: 5px;width: 100%;" id="address" onkeyup="if (window.event.keyCode == 13) {search()}" placeholder="검색어를 입력하세요 (지역, 병원명, 전화번호 검색가능)"></td>
+            <td style="padding: 10px 0 12px;"><input type="text" style="padding: 7px;border: 0;border-radius: 5px;width: 100%;" id="address" onkeyup="if (window.event.keyCode == 13) {search()} if(this.value==''){search()}" placeholder="검색어를 입력하세요 (지역, 병원명, 전화번호 검색가능)"></td>
             <td style="width: 100px;padding: 10px 0 12px;"><span class="srchbtn" onclick="search()">검색하기</span></td>
         </tr></tbody></table>
     <div id="srchrslt"></div>
@@ -111,16 +111,20 @@
                     arr[i].style.display="";
                 }
             }
-            var cou=0;
-            for (var i = 1; i < arr.length; i++) {
-                arr[i].style.display="none";
-                if(arr[i].innerText.indexOf(name)!=-1){
-                    cou++
-                    arr[i].style.display="";
-                }
-            }
             window.location.hash=name;
-            document.getElementById("srchrslt").innerHTML="<h3>\""+name+"\" 검색결과 "+cou+" 건</h3>";
+            if(name==""){
+                document.getElementById("srchrslt").innerHTML="";
+            }else{
+                var cou=0;
+                for (var i = 1; i < arr.length; i++) {
+                    arr[i].style.display="none";
+                    if(arr[i].innerText.indexOf(name)!=-1){
+                        cou++
+                        arr[i].style.display="";
+                    }
+                }
+                document.getElementById("srchrslt").innerHTML="<h3>\""+name+"\" 검색결과 "+cou+" 건</h3>";
+            }
         }
     </script>
 </body>
