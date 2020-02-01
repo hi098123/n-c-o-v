@@ -19,11 +19,16 @@
 
       gtag('config', 'UA-136150577-3');
     </script>
+    <style>
+        a{text-decoration: none;color: #3f51b5;}
+        .sitelist{line-height: 2;padding: 0}
+        .sitelist li{list-style: inside;}
+    </style>
 </head>
 <body>
     <h1 style="text-align: center;padding: 20px 0;margin: 0 0 20px;background-color: #222;color: #fff;"><span style="display: inline-block;">신종 코로나 바이러스</span> <span style="display: inline-block;">확진자 현황</span></h1>
     <div class="top"></div>
-    <div class="chart" id="nCov"> 도표 생성중. . . </div>
+    <div class="chart" id="nCov"> 표 생성중. . . 계속 생성중이라면, 새로고침 해주세요 </div>
     <div class="content">
         <h3 id="update">최근 업데이트 : ####-##-## ##시##분</h3>
         <br>
@@ -61,8 +66,10 @@
         <p>현재 제보 페이지 생성중입니다.</p>
         <br>
         <h3>사이트</h3>
-        <p><a href="http://www.cdc.go.kr/contents.es?mid=a21111050500">질병관리본부 홈페이지</a></p>
-        <p><a href="http://www.mohw.go.kr/react/popup_200128.html">선별진료소 현황</a> Ctrl+F로 검색가능</p>
+        <ul class="sitelist">
+            <li><a href="http://www.cdc.go.kr/contents.es?mid=a21111050500">질병관리본부 홈페이지</a></li>
+            <li><a href="http://www.mohw.go.kr/react/popup_200128.html">선별진료소 현황</a> Ctrl+F로 검색가</li>
+        </ul>
     </div>
     <script src="raphael.js"></script>
     <script src="Treant.min.js"></script>
