@@ -18,11 +18,9 @@ body { background: #fff; }
 
 .node1 {
     padding: 2px;
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
     background-color: #ffffff;
-    /*border: 1px solid #000;
-    border-radius: 3px;*/
+    border: 1px solid #9E9E9E;
+    border-radius: 3px;
     width: 200px;
     font-size: 12px;
     width: 64px;
