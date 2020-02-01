@@ -1,6 +1,7 @@
 {
 	"info":{
-		"update":"2020-02-01 17시20분"
+		"update":"2020-02-02 00:43",
+		"version":"0.0.1"
 	},
 	"data":[
 		{
@@ -12,7 +13,7 @@
 			"contact":45,
 			"hospital":"인천의료원",
 			"from":"우한 방문",
-			"confirmDate":"2020-01-20"
+			"confirmDate":"2020-01-19"
 		},
 		{
 			"num":2,
@@ -31,10 +32,10 @@
 			"age":54,
 			"parent":0,
 			"country":"kr",
-			"contact":95,
+			"contact":98,
 			"hospital":"경기 명지병원",
 			"from":"우한 방문",
-			"confirmDate":"2020-01-26"
+			"confirmDate":"2020-01-25"
 		},
 		{
 			"num":4,
@@ -43,14 +44,14 @@
 			"parent":0,
 			"country":"kr",
 			"contact":172,
-			"hospital":"서울대병원",
+			"hospital":"분당서울대병원",
 			"from":"우한 방문",
-			"confirmDate":"2020-01-27"
+			"confirmDate":"2020-01-26"
 		},
 		{
 			"num":5,
 			"sex":"m",
-			"age":32,
+			"age":33,
 			"parent":0,
 			"country":"kr",
 			"contact":29,
@@ -61,7 +62,7 @@
 		{
 			"num":6,
 			"sex":"m",
-			"age":56,
+			"age":55,
 			"parent":3,
 			"country":"kr",
 			"contact":25,
@@ -78,7 +79,7 @@
 			"contact":21,
 			"hospital":"서울의료원",
 			"from":"우한 방문",
-			"confirmDate":"2020-01-31"
+			"confirmDate":"2020-01-30"
 		},
 		{
 			"num":8,
@@ -123,10 +124,10 @@
 		{
 			"num":12,
 			"sex":"m",
-			"age":49,
+			"age":48,
 			"parent":0,
 			"country":"cn",
-			"hospital":"서울대병원",
+			"hospital":"분당서울대병원",
 			"from":"일본 방문",
 			"confirmDate":"2020-02-01"
 		}
