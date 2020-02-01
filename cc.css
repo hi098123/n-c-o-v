@@ -1,7 +1,7 @@
 @import url(//fonts.googleapis.com/earlyaccess/nanumgothic.css);
 * { font-family: 'Nanum Gothic', sans-serif;}
 body,div,dl,dt,dd,pre,form,fieldset,input,textarea,p,blockquote,th,td { margin:0; padding:0; }
-ul,ol,li{list-style: none;padding-left: 20px; }
+ul,ol,li{list-style: none;padding-left: 20px;line-height: 1.5;}
 table { border-collapse:collapse; border-spacing:0; }
 fieldset,img { border:0; }
 address,caption,cite,code,dfn,em,strong,th,var { font-style:normal; font-weight:normal; }
