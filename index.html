@@ -166,7 +166,7 @@
             html+="<h3 class='d'>"+info.from+" <span>"+info.age+(isNaN(info.age)?"?세":"세")+" "+country+" "+(info.sex=="w"?"여성":"남성")+"</span></h3>";
             html+="<p>접촉자 "+(typeof(info.contact)!="undefined"?info.contact+"명":"확인중")+", "+(typeof(Arrs[num_].children)!="undefined"?Arrs[num_].children.length+"":"0")+"명에게 전파</p>";
             html+="<p>격리 병원 : "+info.hospital+"</p>";
-            html+="<p>확진 날짜 : "+info.confirmDate+"</p>";
+            html+="<p>격리 날짜 : "+info.confirmDate+"</p>";
             document.getElementById('info_').innerHTML=html;
             showDetail("alertMsg",324,204);
         }
