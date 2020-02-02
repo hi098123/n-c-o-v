@@ -1,6 +1,6 @@
 {
 	"info":{
-		"update":"2020-02-02 00:43",
+		"update":"2020-02-02 10:58",
 		"version":"0.0.1"
 	},
 	"data":[
@@ -130,6 +130,36 @@
 			"hospital":"분당서울대병원",
 			"from":"일본 방문",
 			"confirmDate":"2020-02-01"
+		},
+		{
+			"num":13,
+			"sex":"m",
+			"age":28,
+			"parent":0,
+			"country":"kr",
+			"hospital":"국립중앙의료원",
+			"from":"우한 교민",
+			"confirmDate":"2020-02-02"
+		},
+		{
+			"num":14,
+			"sex":"w",
+			"age":40,
+			"parent":12,
+			"country":"cn",
+			"hospital":"확인중",
+			"from":"12번 환자 가족",
+			"confirmDate":"2020-02-02"
+		},
+		{
+			"num":15,
+			"sex":"m",
+			"age":43,
+			"parent":0,
+			"country":"kr",
+			"hospital":"확인중",
+			"from":"우한 방문",
+			"confirmDate":"2020-02-02"
 		}
 	]
 }

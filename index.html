@@ -39,6 +39,9 @@
     <div class="content">
         <h3 id="update">최근 업데이트 : ####-##-## ##시##분</h3>
         <br>
+        <h3>통계</h3>
+        <div id="stats"></div>
+        <br>
         <h3>소개</h3>
         <p>신종 코로나 바이러스 감염증의 확진자 현황 관계도를 그린 페이지입니다.</p>
         <p>데이터 파일을 이용하여 쉽게 관계도가 그려지도록 만들어졌으며,</p>
@@ -109,14 +112,18 @@
                     if(xhr.status == 200){
                         Jobj=JSON.parse(xhr.responseText);
                         document.getElementById("update").innerText="최근 업데이트 : "+Jobj.info.update;
+                        var age_sum=0;
+                        var m_cou=0;
                         for (var i = 0; i < Jobj.data.length; i++) {
                             Arrs.push(JSON.parse('{}'));
                             Arrs[Arrs.length-1].text=JSON.parse('{"name": "'+Jobj.data[i].num+' ('+Jobj.data[i].age+'세)"}');
                             //,"date":"'+Jobj.data[i].confirmDate+'"
                             Arrs[Arrs.length-1].image="./"+Jobj.data[i].sex+".png";
                             Arrs[Arrs.length-1].parent=Arrs[Jobj.data[i].parent];
-                            var bool_wuhan=(Jobj.data[i].from=="우한 방문"?true:false);
-                            Arrs[Arrs.length-1].HTMLclass="wuhan_"+bool_wuhan;
+                            //var bool_wuhan=(Jobj.data[i].from=="우한 방문"?true:false);
+                            //Arrs[Arrs.length-1].HTMLclass="wuhan_"+bool_wuhan;
+                            age_sum+=Jobj.data[i].age;
+                            if(Jobj.data[i].sex=="m"){m_cou++;}
                             /*if(i==8){
                                 Arrs[Arrs.length-1].childrenDropLevel=2;
                             }*/
@@ -129,6 +136,11 @@
                         for (var i = 0; i < nodes.length; i++) {
                             nodes[i].addEventListener('click', MsgAlert);
                         }
+                        var html='';
+                        html="<p>평균 연령 : "+parseFloat((age_sum/Jobj.data.length).toFixed(1))+"세</p>";
+                        var balance_2_1=(m_cou>(Jobj.data.length-m_cou)?true:false);
+                        html+="<p>성비 : 남="+m_cou+"명 : 여="+(Jobj.data.length-m_cou)+"명 "+(balance_2_1?"("+parseFloat((m_cou/(Jobj.data.length-m_cou)).toFixed(1))+" : 1)":"(1 : "+parseFloat(((Jobj.data.length-m_cou)/m_cou).toFixed(1))+")")+"</p>";
+                        document.getElementById("stats").innerHTML=html;
                     }else{
                         alert("데이터 로딩에 실패하였습니다.")
                     }
