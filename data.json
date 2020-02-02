@@ -1,6 +1,6 @@
 {
 	"info":{
-		"update":"2020-02-02 18:37",
+		"update":"2020-02-02 21:24",
 		"version":"0.0.1"
 	},
 	"data":[
@@ -13,6 +13,8 @@
 			"contact":45,
 			"hospital":"인천의료원",
 			"from":"우한 방문",
+			"wuhan":true,
+			"status":1,
 			"confirmDate":"2020-01-20"
 		},
 		{
@@ -24,6 +26,8 @@
 			"contact":75,
 			"hospital":"국립중앙의료원",
 			"from":"우한 방문",
+			"wuhan":true,
+			"status":1,
 			"confirmDate":"2020-01-24"
 		},
 		{
@@ -35,6 +39,8 @@
 			"contact":98,
 			"hospital":"경기 명지병원",
 			"from":"우한 방문",
+			"wuhan":true,
+			"status":1,
 			"confirmDate":"2020-01-26"
 		},
 		{
@@ -46,6 +52,8 @@
 			"contact":172,
 			"hospital":"분당서울대병원",
 			"from":"우한 방문",
+			"wuhan":true,
+			"status":1,
 			"confirmDate":"2020-01-27"
 		},
 		{
@@ -57,6 +65,8 @@
 			"contact":33,
 			"hospital":"서울의료원",
 			"from":"우한 방문",
+			"wuhan":true,
+			"status":1,
 			"confirmDate":"2020-01-30"
 		},
 		{
@@ -68,6 +78,8 @@
 			"contact":25,
 			"hospital":"서울대병원",
 			"from":"국내 감염",
+			"wuhan":false,
+			"status":1,
 			"confirmDate":"2020-01-30"
 		},
 		{
@@ -79,6 +91,8 @@
 			"contact":21,
 			"hospital":"서울의료원",
 			"from":"우한 방문",
+			"wuhan":true,
+			"status":1,
 			"confirmDate":"2020-01-31"
 		},
 		{
@@ -90,6 +104,8 @@
 			"contact":72,
 			"hospital":"원광대병원",
 			"from":"우한 방문",
+			"wuhan":true,
+			"status":1,
 			"confirmDate":"2020-01-31"
 		},
 		{
@@ -101,6 +117,8 @@
 			"contact":2,
 			"hospital":"서울의료원",
 			"from":"국내 감염",
+			"wuhan":false,
+			"status":1,
 			"confirmDate":"2020-01-31"
 		},
 		{
@@ -112,6 +130,8 @@
 			"contact":2,
 			"hospital":"서울대병원",
 			"from":"국내 감염",
+			"wuhan":false,
+			"status":1,
 			"confirmDate":"2020-01-31"
 		},
 		{
@@ -122,6 +142,8 @@
 			"country":"kr",
 			"hospital":"서울대병원",
 			"from":"국내 감염",
+			"wuhan":false,
+			"status":1,
 			"confirmDate":"2020-01-31"
 		},
 		{
@@ -133,6 +155,8 @@
 			"contact":138,
 			"hospital":"분당서울대병원",
 			"from":"일본 방문",
+			"wuhan":false,
+			"status":1,
 			"confirmDate":"2020-02-01"
 		},
 		{
@@ -143,6 +167,8 @@
 			"country":"kr",
 			"hospital":"국립중앙의료원",
 			"from":"우한 교민",
+			"wuhan":true,
+			"status":1,
 			"confirmDate":"2020-02-02"
 		},
 		{
@@ -153,6 +179,8 @@
 			"country":"cn",
 			"hospital":"분당서울대병원",
 			"from":"12번 환자 가족",
+			"wuhan":false,
+			"status":1,
 			"confirmDate":"2020-02-02"
 		},
 		{
@@ -163,6 +191,8 @@
 			"country":"kr",
 			"hospital":"국군수도병원",
 			"from":"우한 방문",
+			"wuhan":true,
+			"status":1,
 			"confirmDate":"2020-02-02"
 		}
 	]
