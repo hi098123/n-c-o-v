@@ -13,7 +13,7 @@
 			"contact":45,
 			"hospital":"인천의료원",
 			"from":"우한 방문",
-			"confirmDate":"2020-01-19"
+			"confirmDate":"2020-01-20"
 		},
 		{
 			"num":2,
@@ -35,7 +35,7 @@
 			"contact":98,
 			"hospital":"경기 명지병원",
 			"from":"우한 방문",
-			"confirmDate":"2020-01-25"
+			"confirmDate":"2020-01-26"
 		},
 		{
 			"num":4,
@@ -46,7 +46,7 @@
 			"contact":172,
 			"hospital":"분당서울대병원",
 			"from":"우한 방문",
-			"confirmDate":"2020-01-26"
+			"confirmDate":"2020-01-27"
 		},
 		{
 			"num":5,
@@ -79,7 +79,7 @@
 			"contact":21,
 			"hospital":"서울의료원",
 			"from":"우한 방문",
-			"confirmDate":"2020-01-30"
+			"confirmDate":"2020-01-31"
 		},
 		{
 			"num":8,
