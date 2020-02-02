@@ -1,6 +1,6 @@
 {
 	"info":{
-		"update":"2020-02-02 10:58",
+		"update":"2020-02-02 18:37",
 		"version":"0.0.1"
 	},
 	"data":[
@@ -87,6 +87,7 @@
 			"age":62,
 			"parent":0,
 			"country":"kr",
+			"contact":72,
 			"hospital":"원광대병원",
 			"from":"우한 방문",
 			"confirmDate":"2020-01-31"
@@ -97,6 +98,7 @@
 			"age":28,
 			"parent":5,
 			"country":"kr",
+			"contact":2,
 			"hospital":"서울의료원",
 			"from":"국내 감염",
 			"confirmDate":"2020-01-31"
@@ -107,6 +109,7 @@
 			"age":54,
 			"parent":6,
 			"country":"kr",
+			"contact":2,
 			"hospital":"서울대병원",
 			"from":"국내 감염",
 			"confirmDate":"2020-01-31"
@@ -127,6 +130,7 @@
 			"age":48,
 			"parent":0,
 			"country":"cn",
+			"contact":138,
 			"hospital":"분당서울대병원",
 			"from":"일본 방문",
 			"confirmDate":"2020-02-01"
@@ -147,7 +151,7 @@
 			"age":40,
 			"parent":12,
 			"country":"cn",
-			"hospital":"확인중",
+			"hospital":"분당서울대병원",
 			"from":"12번 환자 가족",
 			"confirmDate":"2020-02-02"
 		},
@@ -157,7 +161,7 @@
 			"age":43,
 			"parent":0,
 			"country":"kr",
-			"hospital":"확인중",
+			"hospital":"국군수도병원",
 			"from":"우한 방문",
 			"confirmDate":"2020-02-02"
 		}
