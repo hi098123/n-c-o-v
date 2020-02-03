@@ -41,6 +41,40 @@
         <p>기존항목을 삭제하지 않습니다. (이미 사용하던 곳에서 오류방지)</p>
         <p>기존항목을 변경을 하지 않고 유동적으로 사용가능하도록 설계합니다.</p>
         <br>
+        <h2>API 호출</h2>
+        <p>https://ncov-korea.cf/data.json <a href="https://ncov-korea.cf/data.json" target="_blank">주소</a>로 데이터 파일에 접근이 가능합니다.</p>
+        <p>모두에게 개방되어있으며, CORS제한도 없습니다.</p>
+        <br>
+        <h1>데이터 형식</h1>
+        <ul style="background-color: #F5F5F5;padding: 20px;border-radius: 20px;">
+            {
+                <li>"info":{
+                    <ul style="background-color: #F5F5F5;padding: 0 20px;border-radius: 20px;">
+                        <li>"update":"2020-02-02 21:24",<span class="notjson"> => 업데이트 시각</span></li>
+                        <li>"version":"0.0.2"<span class="notjson"> => 형식 버전</span></li>
+                    </ul>
+                },</li>
+                <li>"data":[
+                    <ul style="background-color: #F5F5F5;padding: 0 20px;border-radius: 20px;">
+                        {
+                            <li>"num":1,<span class="notjson"> => 첫번째 감염자</span></li>
+                            <li>"sex":"w",<span class="notjson"> => 성별 : 여성, 남성은 m {"m","w"}</span></li>
+                            <li>"age":35,<span class="notjson"> => 나이 : 35세</span></li>
+                            <li>"parent":0,<span class="notjson"> => 모 감염자 번호 (기본값은 0)</span></li>
+                            <li>"country":"cn",<span class="notjson"> => cn: 중국, kr: 한국</span></li>
+                            <li>"contact":45,<span class="notjson"> => 접촉자 수</span></li>
+                            <li>"hospital":"인천의료원",<span class="notjson"> => 격리 병원</span></li>
+                            <li>"from":"우한 방문",<span class="notjson"> => 방문 지역 {"국내 감염","?? 방문"}</span></li>
+                            <li>"wuhan":true,<span class="notjson"> => 우한 방문여부</span></li>
+                            <li>"status":1,<span class="notjson"> => 상태 {0:사망, 1:격리 중, 2:완치}</span></li>
+                            <li>"confirmDate":"2020-01-20"<span class="notjson"> => 확진 날짜 {yyyy-mm-dd}</span></li>
+                        }
+                    </ul>
+                ]</li>
+            }
+        </ul>
+        <br>
+        <h1>규격 버전</h1>
         <h2>V 0.0.2</h2>
         <ul style="background-color: #F5F5F5;padding: 20px;border-radius: 20px;">
             {
