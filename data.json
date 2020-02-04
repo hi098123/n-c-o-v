@@ -1,7 +1,10 @@
 {
 	"info":{
-		"update":"2020-02-04 12:14",
-		"version":"0.0.2"
+		"update":"2020-02-04 14:37",
+		"version":"0.0.2",
+		"Symptom_total":591,
+		"Symptom_quarantine":129,
+		"Symptom_release":462
 	},
 	"data":[
 		{
