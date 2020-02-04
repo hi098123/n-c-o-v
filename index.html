@@ -21,20 +21,10 @@
       gtag('config', 'UA-136150577-3');
     </script>
     <script data-ad-client="ca-pub-2722856117249943" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-    <style>
-        a{text-decoration: none;color: #3f51b5;}
-        .sitelist{padding: 0}
-        .sitelist li{list-style: inside;line-height: 2;}
-        .top{margin: 0 30px;}
-        @media(max-width:1024px){
-            .top{margin: 0;}
-        }
-        .status_0{background-color: #222;color: #fff;}
-        .status_2{border: 1px solid #eee;}
-    </style>
 </head>
 <body>
-    <h1 style="text-align: center;padding: 20px 0;margin: 0 0 20px;background-color: #222;color: #fff;"><span style="display: inline-block;">신종 코로나 바이러스</span> <span style="display: inline-block;">확진자 현황</span></h1>
+    <h1 style="text-align: center;padding: 20px 0;margin: 0;background-color: #222;color: #fff;"><span style="display: inline-block;">신종 코로나 바이러스</span> <span style="display: inline-block;">확진자 현황</span></h1>
+    <!--<h1 style="text-align: center;padding: 5px;margin: 0 0 20px;background-color: #E0E0E0;color: #000;font-size: 16px;"><span style="display: inline-block;margin: 6px">마스크 착용하고 손으로 눈코입만 안만지면 전염이 안되는 질병!</span> <span style="display: inline-block;margin: 6px">전염병 예방, 기본도 안지킬때 감염될수있습니다.</span></h1>-->
     <div class="top">
         <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
         <ins class="adsbygoogle"
@@ -69,6 +59,7 @@
         <ul class="sitelist">
             <li><a href="http://www.cdc.go.kr/contents.es?mid=a21111050500" target="_blank">질병관리본부 홈페이지</a></li>
             <li><a href="./search.html">선별진료소 검색하기</a> (검색기능을 추가하여 제공중)</li>
+            <li><a href="https://www.mohw.go.kr/react/popup_200128.html">선별진료소 검색하기</a> (공식: 2020-02-04 부터 검색기능 업데이트)</li>
             <li><a href="http://coronamap.site/" target="_blank">코로나맵</a></li>
         </ul>
         <br>
@@ -78,14 +69,14 @@
         <h4>형식 (버전 0.0.2) <a href="/post/version.html">이전버전 및 규칙 보기</a></h4>
         <ul style="background-color: #F5F5F5;padding: 20px;border-radius: 20px;">
             {
-                <li>"num":1,<span class="notjson"> => 첫번째 감염자</span></li>
+                <li>"num":1,<span class="notjson"> => 감염자 번호 {1,2,3 ...}</span></li>
                 <li>"sex":"w",<span class="notjson"> => 성별 : 여성, 남성은 m {"m","w"}</span></li>
                 <li>"age":35,<span class="notjson"> => 나이 : 35세</span></li>
                 <li>"parent":0,<span class="notjson"> => 모 감염자 번호 (기본값은 0)</span></li>
                 <li>"country":"cn",<span class="notjson"> => cn: 중국, kr: 한국</span></li>
                 <li>"contact":45,<span class="notjson"> => 접촉자 수</span></li>
                 <li>"hospital":"인천의료원",<span class="notjson"> => 격리 병원</span></li>
-                <li>"from":"우한 방문",<span class="notjson"> => 방문 지역 {"국내 감염","?? 방문"}</span></li>
+                <li>"from":"우한 방문",<span class="notjson"> => 방문 지역 {"국내 감염","?? 방문" ...}</span></li>
                 <li>"wuhan":true,<span class="notjson"> => 우한 방문여부</span></li>
                 <li>"status":1,<span class="notjson"> => 상태 {0:사망, 1:격리 중, 2:완치}</span></li>
                 <li>"confirmDate":"2020-01-20"<span class="notjson"> => 확진 날짜 {yyyy-mm-dd}</span></li>
@@ -127,10 +118,6 @@
     <script src="raphael.js"></script>
     <script src="Treant.min.js"></script>
     <script src="main.min.js"></script>
-<div id="alertMsg" style="display: none;">
-    <span class="xbtn" title="닫기" onclick="document.getElementById('alertMsg').style.display='none';">X</span>
-    <h2 id="title_"></h2>
-    <div id="info_"></div>
-</div>
+<div id="alertMsg" style="display: none;"><span class="xbtn" title="닫기" onclick="document.getElementById('alertMsg').style.display='none';">X</span><h2 id="title_"></h2><div id="info_"></div></div>
 </body>
 </html>
