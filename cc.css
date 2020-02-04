@@ -34,7 +34,7 @@ body { background: #fff; }
 .node-date{font-size: 11px;}
 .wuhan_true{}
 .wuhan_false{}
-#alertMsg{width: 300px;height: 180px}
+#alertMsg{width: 300px;min-height: 180px}
 #alertMsg .xbtn{float: right;color: #fff;cursor: pointer;padding: 5px 10px;background-color: #E53935;}
 #alertMsg{
     position: fixed;background-color: #fff;border: 3px solid #607D8B;border-radius: 10px;padding: 10px;
@@ -52,3 +52,13 @@ body { background: #fff; }
 .content{max-width: 900px;margin: auto;padding: 20px}
 .notjson{user-select: none;font-weight: bold;}
 .content p{margin: 1em 0;}
+
+a{text-decoration: none;color: #1565c0;}
+.sitelist{padding: 0}
+.sitelist li{list-style: inside;line-height: 2;}
+.top{margin: 0 30px;}
+@media(max-width:1024px){
+    .top{margin: 0;}
+}
+.status_0{background-color: #222;color: #fff;}
+.status_2{border: 1px solid #eee;color: #4CAF50;}
