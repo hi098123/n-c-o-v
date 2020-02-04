@@ -1,7 +1,7 @@
 {
 	"info":{
-		"update":"2020-02-02 21:24",
-		"version":"0.0.1"
+		"update":"2020-02-04 12:14",
+		"version":"0.0.2"
 	},
 	"data":[
 		{
@@ -194,6 +194,18 @@
 			"wuhan":true,
 			"status":1,
 			"confirmDate":"2020-02-02"
+		},
+		{
+			"num":16,
+			"sex":"w",
+			"age":42,
+			"parent":0,
+			"country":"kr",
+			"hospital":"전남대병원",
+			"from":"태국 방문",
+			"wuhan":false,
+			"status":1,
+			"confirmDate":"2020-02-04"
 		}
 	]
 }
