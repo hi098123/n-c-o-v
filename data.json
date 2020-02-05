@@ -131,7 +131,7 @@
 			"country":"kr",
 			"contact":91,
 			"hospital":"서울대병원",
-			"from":"국내 감염",
+			"from":"6번환자 아내",
 			"wuhan":false,
 			"status":1,
 			"confirmDate":"2020-01-31"
@@ -143,7 +143,7 @@
 			"parent":6,
 			"country":"kr",
 			"hospital":"서울대병원",
-			"from":"국내 감염",
+			"from":"6번환자 아들",
 			"contact":91,
 			"wuhan":false,
 			"status":1,
