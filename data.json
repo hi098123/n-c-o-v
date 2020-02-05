@@ -1,6 +1,6 @@
 {
 	"info":{
-		"update":"2020-02-05 09:56",
+		"update":"2020-02-05 13:16",
 		"version":"0.0.2",
 		"Symptom_quarantine":129,
 		"Symptom_release":462
@@ -219,7 +219,7 @@
 			"age":38,
 			"parent":0,
 			"country":"kr",
-			"hospital":"확인중",
+			"hospital":"명지대병원",
 			"from":"싱가포르 방문",
 			"wuhan":false,
 			"status":1,
@@ -231,7 +231,7 @@
 			"age":21,
 			"parent":16,
 			"country":"kr",
-			"hospital":"확인중",
+			"hospital":"전남대병원",
 			"from":"16번 환자 딸",
 			"wuhan":false,
 			"status":1,
