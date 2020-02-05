@@ -1,6 +1,6 @@
 {
 	"info":{
-		"update":"2020-02-05 13:16",
+		"update":"2020-02-05 16:20",
 		"version":"0.0.2",
 		"Symptom_quarantine":129,
 		"Symptom_release":462
@@ -29,7 +29,7 @@
 			"hospital":"국립중앙의료원",
 			"from":"우한 방문",
 			"wuhan":true,
-			"status":1,
+			"status":2,
 			"confirmDate":"2020-01-24"
 		},
 		{
