@@ -23,10 +23,10 @@ body { background: #fff; }
     border-radius: 3px;
     width: 200px;
     font-size: 12px;
-    width: 64px;
+    width: 48px;
 }
 .node1 img{
-	width: 64px;
+	width: 48px;
 }
 .title{width: 200px !important;cursor: default !important;background-color: #b71c1c;color: #fff;border: 0;}
 .node-cn{text-align: center;background-color: #b71c1c;font-size: 1.5em;}
