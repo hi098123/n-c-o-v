@@ -118,7 +118,7 @@
 			"country":"kr",
 			"contact":2,
 			"hospital":"서울의료원",
-			"from":"국내 감염",
+			"from":"5번환자 지인",
 			"wuhan":false,
 			"status":1,
 			"confirmDate":"2020-01-31"
