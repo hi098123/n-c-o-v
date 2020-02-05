@@ -30,7 +30,7 @@ body { background: #fff; }
 }
 .title{width: 200px !important;cursor: default !important;background-color: #b71c1c;color: #fff;border: 0;}
 .node-cn{text-align: center;background-color: #b71c1c;font-size: 1.5em;}
-.node-name2,.node-name{text-align: center}
+.node-name2,.node-name,.node-country{text-align: center}
 .node-date{font-size: 11px;}
 .wuhan_true{}
 .wuhan_false{}
