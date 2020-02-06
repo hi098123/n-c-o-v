@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -52,8 +53,8 @@
                     <ul style="background-color: #F5F5F5;padding: 0 20px;border-radius: 20px;">
                         <li>"update":"2020-02-02 21:24",<span class="notjson"> => 업데이트 시각</span></li>
                         <li>"version":"0.0.2",<span class="notjson"> => 형식 버전</span></li>
-                        <li>"Symptom_quarantine":87,<span class="notjson"> => 유증상자(격리중)</span></li>
-                        <li>"Symptom_release":327<span class="notjson"> => 유증상자(격리해제)</span></li>
+                        <li>"Symptom_quarantine":174,<span class="notjson"> => 유증상자(격리중)</span></li>
+                        <li>"Symptom_release":522<span class="notjson"> => 유증상자(격리해제)</span></li>
                     </ul>
                 },</li>
                 <li>"data":[
@@ -70,6 +71,7 @@
                             <li>"wuhan":true,<span class="notjson"> => 우한 방문여부</span></li>
                             <li>"status":1,<span class="notjson"> => 상태 {0:사망, 1:격리 중, 2:완치}</span></li>
                             <li>"confirmDate":"2020-01-20"<span class="notjson"> => 확진 날짜 {yyyy-mm-dd}</span></li>
+                            <li>"dischargeDate":"2020-02-06"<span class="notjson"> => 완치 날짜 {yyyy-mm-dd}</span></li>
                         }
                     </ul>
                 ]</li>
@@ -77,6 +79,25 @@
         </ul>
         <br>
         <h1>규격 버전</h1>
+        <h2>V 0.0.3</h2>
+        <ul style="background-color: #F5F5F5;padding: 20px;border-radius: 20px;">
+            {
+                <li>"num":1,<span class="notjson"> => 첫번째 감염자</span></li>
+                <li>"sex":"w",<span class="notjson"> => 성별 : 여성, 남성은 m {"m","w"}</span></li>
+                <li>"age":35,<span class="notjson"> => 나이 : 35세</span></li>
+                <li>"parent":0,<span class="notjson"> => 모 감염자 번호 (기본값은 0)</span></li>
+                <li>"country":"cn",<span class="notjson"> => cn: 중국, kr: 한국</span></li>
+                <li>"contact":45,<span class="notjson"> => 접촉자 수</span></li>
+                <li>"hospital":"인천의료원",<span class="notjson"> => 격리 병원</span></li>
+                <li>"from":"우한 방문",<span class="notjson"> => 모감염자와 관계 또는 방문 지역 {"#0 지인","?? 방문", ...}</span></li>
+                <li>"wuhan":true,<span class="notjson"> => 우한 방문여부</span></li>
+                <li>"status":1,<span class="notjson"> => 상태 {0:사망, 1:격리 중, 2:완치}</span></li>
+                <li>"confirmDate":"2020-01-20"<span class="notjson"> => 확진 날짜 {yyyy-mm-dd}</span></li>
+                <li>"dischargeDate":"2020-02-06"<span class="notjson"> => 완치 날짜 {yyyy-mm-dd}</span></li>
+            }
+        </ul>
+        <p>완치 날짜를 나타내는 항목인 "dischargeDate" 추가</p>
+        <br>
         <h2>V 0.0.2</h2>
         <ul style="background-color: #F5F5F5;padding: 20px;border-radius: 20px;">
             {
