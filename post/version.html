@@ -6,10 +6,10 @@
     <meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, width=device-width">
     <title>2019-nCov 한국 감염표</title>
     <link rel="stylesheet" href="../cc.css">
-    <meta name="description" content="신종 코로나(우한 폐렴) 감염자들의 관계도를 그린 페이지입니다.">
-    <meta property="og:url" content="https://ncov-korea.cf/post/1.html" >
-    <meta property="og:site_name" content="2019-nCov 한국 감염표" >
-    <meta property="og:title" content="2019-nCov 한국 감염표" >
+    <meta name="description" content="신종 코로나(우한 폐렴) 감염자들의 관계도 데이터 파일 안내">
+    <meta property="og:url" content="https://ncov-korea.cf/post/version.html" >
+    <meta property="og:site_name" content="2019-nCov 한국 감염표 JSON Data" >
+    <meta property="og:title" content="2019-nCov 한국 감염표 JSON Data" >
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-136150577-3"></script>
     <script>
@@ -21,7 +21,7 @@
     </script>
     <script data-ad-client="ca-pub-2722856117249943" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
     <style>
-        a{text-decoration: none;color: #3f51b5;}
+        a{text-decoration: none;color: #1565c0;}
         .sitelist{line-height: 2;padding: 0}
         .sitelist li{list-style: inside;}
         .top{margin: 0 30px;}
@@ -51,7 +51,9 @@
                 <li>"info":{
                     <ul style="background-color: #F5F5F5;padding: 0 20px;border-radius: 20px;">
                         <li>"update":"2020-02-02 21:24",<span class="notjson"> => 업데이트 시각</span></li>
-                        <li>"version":"0.0.2"<span class="notjson"> => 형식 버전</span></li>
+                        <li>"version":"0.0.2",<span class="notjson"> => 형식 버전</span></li>
+                        <li>"Symptom_quarantine":174,<span class="notjson"> => 유증상자(격리중)</span></li>
+                        <li>"Symptom_release":522<span class="notjson"> => 유증상자(격리해제)</span></li>
                     </ul>
                 },</li>
                 <li>"data":[
@@ -64,7 +66,7 @@
                             <li>"country":"cn",<span class="notjson"> => cn: 중국, kr: 한국</span></li>
                             <li>"contact":45,<span class="notjson"> => 접촉자 수</span></li>
                             <li>"hospital":"인천의료원",<span class="notjson"> => 격리 병원</span></li>
-                            <li>"from":"우한 방문",<span class="notjson"> => 방문 지역 {"국내 감염","?? 방문"}</span></li>
+                            <li>"from":"우한 방문",<span class="notjson"> => 모감염자와 관계 또는 방문 지역 {"#0 지인","?? 방문", ...}</span></li>
                             <li>"wuhan":true,<span class="notjson"> => 우한 방문여부</span></li>
                             <li>"status":1,<span class="notjson"> => 상태 {0:사망, 1:격리 중, 2:완치}</span></li>
                             <li>"confirmDate":"2020-01-20"<span class="notjson"> => 확진 날짜 {yyyy-mm-dd}</span></li>
@@ -85,7 +87,7 @@
                 <li>"country":"cn",<span class="notjson"> => cn: 중국, kr: 한국</span></li>
                 <li>"contact":45,<span class="notjson"> => 접촉자 수</span></li>
                 <li>"hospital":"인천의료원",<span class="notjson"> => 격리 병원</span></li>
-                <li>"from":"우한 방문",<span class="notjson"> => 방문 지역 {"국내 감염","?? 방문"}</span></li>
+                <li>"from":"우한 방문",<span class="notjson"> => 모감염자와 관계 또는 방문 지역 {"#0 지인","?? 방문", ...}</span></li>
                 <li>"wuhan":true,<span class="notjson"> => 우한 방문여부</span></li>
                 <li>"status":1,<span class="notjson"> => 상태 {0:사망, 1:격리 중, 2:완치}</span></li>
                 <li>"confirmDate":"2020-01-20"<span class="notjson"> => 확진 날짜 {yyyy-mm-dd}</span></li>
