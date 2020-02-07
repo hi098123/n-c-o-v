@@ -1,7 +1,7 @@
 {
 	"info":{
 		"update":"2020-02-07 10:09",
-		"version":"0.0.2",
+		"version":"0.0.3",
 		"Symptom_quarantine":264,
 		"Symptom_release":842
 	},
@@ -209,7 +209,7 @@
 			"age":42,
 			"parent":0,
 			"country":"kr",
-			"contact":378,
+			"contact":362,
 			"hospital":"전남대병원",
 			"from":"태국 방문",
 			"wuhan":false,
@@ -224,7 +224,7 @@
 			"country":"kr",
 			"hospital":"명지병원",
 			"from":"싱가포르 방문",
-			"contact":188,
+			"contact":290,
 			"wuhan":false,
 			"status":1,
 			"confirmDate":"2020-02-05"
@@ -237,6 +237,7 @@
 			"country":"kr",
 			"hospital":"전남대병원",
 			"from":"#16 딸",
+			"contact":4,
 			"wuhan":false,
 			"status":1,
 			"confirmDate":"2020-02-05"
@@ -249,6 +250,7 @@
 			"country":"kr",
 			"hospital":"서울의료원",
 			"from":"싱가포르 방문",
+			"contact":54,
 			"wuhan":false,
 			"status":1,
 			"confirmDate":"2020-02-05"
@@ -261,6 +263,7 @@
 			"country":"kr",
 			"hospital":"국군수도병원",
 			"from":"#15 처제",
+			"contact":14,
 			"wuhan":false,
 			"status":1,
 			"confirmDate":"2020-02-05"
@@ -273,6 +276,7 @@
 			"country":"kr",
 			"hospital":"서울대병원",
 			"from":"#6 지인",
+			"contact":7,
 			"wuhan":false,
 			"status":1,
 			"confirmDate":"2020-02-05"
@@ -285,6 +289,7 @@
 			"country":"kr",
 			"hospital":"조선대병원",
 			"from":"#16 오빠",
+			"contact":1,
 			"wuhan":false,
 			"status":1,
 			"confirmDate":"2020-02-06"
@@ -292,7 +297,7 @@
 		{
 			"num":23,
 			"sex":"w",
-			"age":58,
+			"age":57,
 			"parent":0,
 			"country":"cn",
 			"hospital":"국립중앙의료원",
@@ -309,6 +314,7 @@
 			"country":"kr",
 			"hospital":"국립중앙의료원",
 			"from":"우한 교민",
+			"contact":0,
 			"wuhan":true,
 			"status":1,
 			"confirmDate":"2020-02-07"
