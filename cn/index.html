@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, width=device-width">
+    <title>2019-nCov 한국 감염표</title>
+    <meta name="description" content="신종 코로나(우한 폐렴) 중국 통계와 예측값을 표시합니다.">
+    <meta property="og:url" content="https://ncov-korea.cf/cn/" >
+    <meta property="og:site_name" content="2019-nCov 중국 통계/예측" >
+    <meta property="og:title" content="2019-nCov 중국 통계/예측" >
+    <meta name="google-site-verification" content="45KTYZYJ4dvOmdfBebeRjNCjciQHB_dAiZ4O4rKtoyU" />
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-136150577-3"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-136150577-3');
+    </script>
+    <script data-ad-client="ca-pub-2722856117249943" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"></script>
+    <style>
+        html,body{margin: 0;padding: 0}
+        .stats_inner{display:inline-block;margin: 0 50px 0 0;vertical-align: top;}
+        .content{margin: 50px auto;max-width: 800px;}
+        #stats{margin: 10px;}
+        @media(max-width:400px){
+            .stats_inner{margin: 0;}
+        }
+        #prevent{
+            padding: 0 10px;
+            border-left: 5px solid #9e9e9e;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center;padding: 20px 0;margin: 0;background-color: #222;color: #fff;"><span style="display: inline-block;">신종 코로나 바이러스</span> <span style="display: inline-block;">중국 통계/예측</span></h1>
+    <h1 style="text-align: center;padding: 5px;margin: 0 0 20px;background-color: #E0E0E0;color: #000;font-size: 16px;"><span style="display: inline-block;margin: 6px">아직 데이터가 적기때문에 예측값은 틀릴수 있습니다.</span> <span style="display: inline-block;margin: 6px">예측값은 공식데이터가 아니므로 따로 표기가 됩니다.</span></h1>
+    <div class="top">
+        <!--<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+        <ins class="adsbygoogle"
+             style="display:block"
+             data-ad-client="ca-pub-2722856117249943"
+             data-ad-slot="4950954839"
+             data-ad-format="auto"
+             data-full-width-responsive="true"></ins>
+        <script>
+             (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>-->
+    </div>
+    <div class="content">
+        <h3>통계</h3>
+        <div id="stats2">
+            <h4>공식 일별 확진자/완치자/사망자 통계</h4>
+            <div style="max-width: 800px;">
+                <canvas id="Day_stats" width="400" height="200"></canvas>
+            </div>
+            <br>
+            <h4>내일값 예측 (이전의 데이터를 계산해서 예측합니다.)</h4>
+            <p>* 공식 통계가 아닌 컴퓨터의 "발표예측값"입니다</p>
+            <div id="prevent"></div>
+        </div>
+        <br>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
