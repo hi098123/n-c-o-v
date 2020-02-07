@@ -47,9 +47,9 @@
             if(xhr.readyState == 4){
                 if(xhr.status == 200){
                     Jobj=JSON.parse(xhr.responseText);
-                    var html='<table cellpadding="10" cellspacing="0" border="1"><thead><tr><th>확진자 번호</th><th>성별</th><th>나이</th><th>모 감염자 번호</th><th>국적</th><th>접촉자</th><th>격리병원</th><th>특징</th><th>상태</th><th>우한방문여부</th><th>확진일</th><th>퇴원일</th></tr></thead><tbody>';
+                    var html='<table cellpadding="10" cellspacing="0" border="1"><thead><tr><th>확진자 번호</th><th>모 감염자 번호</th><th>성별</th><th>나이</th><th>국적</th><th>접촉자</th><th>격리병원</th><th>특징</th><th>상태</th><th>우한방문여부</th><th>확진일</th><th>퇴원일</th></tr></thead><tbody>';
                     for (var i = 0; i < Jobj.data.length; i++) {
-                        html+='<tr><td>'+Jobj.data[i].num+'</td><td>'+(Jobj.data[i].sex=="w"?"여성":"남성")+'</td><td>'+Jobj.data[i].age+'</td><td>'+(Jobj.data[i].parent==0?"":Jobj.data[i].parent)+'</td><td>'+Jobj.data[i].country+'</td><td>'+isNull(Jobj.data[i].contact)+'</td><td>'+Jobj.data[i].hospital+'</td><td>'+Jobj.data[i].from+'</td><td>'+(Jobj.data[i].status==0?"사망":(Jobj.data[i].status==1?"격리중":"퇴원"))+'</td><td>'+(Jobj.data[i].wuhan?"O":"X")+'</td><td>'+Jobj.data[i].confirmDate+'</td><td>'+isNull(Jobj.data[i].dischargeDate)+'</td></tr>';
+                        html+='<tr><td>'+Jobj.data[i].num+'</td><td>'+(Jobj.data[i].parent==0?"":Jobj.data[i].parent)+'</td><td>'+(Jobj.data[i].sex=="w"?"여성":"남성")+'</td><td>'+Jobj.data[i].age+'</td><td>'+Jobj.data[i].country+'</td><td>'+isNull(Jobj.data[i].contact)+'</td><td>'+Jobj.data[i].hospital+'</td><td>'+Jobj.data[i].from+'</td><td>'+(Jobj.data[i].status==0?"사망":(Jobj.data[i].status==1?"격리중":"퇴원"))+'</td><td>'+(Jobj.data[i].wuhan?"O":"X")+'</td><td>'+Jobj.data[i].confirmDate+'</td><td>'+isNull(Jobj.data[i].dischargeDate)+'</td></tr>';
                     }
                     html+='</tbody></table>';
                     document.getElementById('content').innerHTML=html;
