@@ -1,0 +1,66 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, width=device-width">
+    <title>데이터를 표로 보기</title>
+    <meta name="description" content="신종 코로나(우한 폐렴) 감염자들의 관계도 데이터 파일 안내">
+    <meta property="og:url" content="https://ncov-korea.cf/post/version.html" >
+    <meta property="og:site_name" content="2019-nCov 한국 감염표 JSON Data to csv, html table" >
+    <meta property="og:title" content="2019-nCov 한국 감염표 JSON Data to csv, html table" >
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-136150577-3"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-136150577-3');
+    </script>
+    <style>
+        html,body{margin: 0;text-align: center;padding: 0}
+        a{text-decoration: none;color: #1565c0;}
+        .sitelist{line-height: 2;padding: 0}
+        .sitelist li{list-style: inside;}
+        .top{margin: 0 30px;}
+        @media(max-width:1024px){
+            .top{margin: 0;}
+        }
+        table{margin: auto;}
+        #content{margin: 50px 0}
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center;padding: 20px 0;margin: 0 0 20px;background-color: #222;color: #fff;"><span style="display: inline-block;">데이터 파일을 표로보기</span></h1>
+    <a href="/" style="position: absolute;top: 21px;color: #fff;left: 20px;font-size: 26px;">&lt;</a>
+    <p>표로 표시하여 일반인들의 접근이 더 용이합니다.</p>
+    <p>복사하여 문서(한컴,워드,엑셀 등)에 사용가능합니다.</p>
+    <div id="content"></div>
+    <p>이 자료들은 보건복지부 - 질병관리본부의 자료를 모은것이며 추후 바뀔수있음을 안내드립니다.</p>
+    <script>
+    (function(){
+        var xhr =new XMLHttpRequest;
+        xhr.open("GET" , 'https://ncov-korea.cf/data.json' , true);
+        xhr.onreadystatechange = function() {
+            if(xhr.readyState == 4){
+                if(xhr.status == 200){
+                    Jobj=JSON.parse(xhr.responseText);
+                    var html='<table cellpadding="10" cellspacing="0" border="1"><thead><tr><th>확진자 번호</th><th>모 감염자 번호</th><th>성별</th><th>나이</th><th>국적</th><th>접촉자</th><th>격리병원</th><th>특징</th><th>상태</th><th>우한방문여부</th><th>확진일</th><th>퇴원일</th></tr></thead><tbody>';
+                    for (var i = 0; i < Jobj.data.length; i++) {
+                        html+='<tr><td>'+Jobj.data[i].num+'</td><td>'+(Jobj.data[i].parent==0?"":Jobj.data[i].parent)+'</td><td>'+(Jobj.data[i].sex=="w"?"여성":"남성")+'</td><td>'+Jobj.data[i].age+'</td><td>'+Jobj.data[i].country+'</td><td>'+isNull(Jobj.data[i].contact)+'</td><td>'+Jobj.data[i].hospital+'</td><td>'+Jobj.data[i].from+'</td><td>'+(Jobj.data[i].status==0?"사망":(Jobj.data[i].status==1?"격리중":"퇴원"))+'</td><td>'+(Jobj.data[i].wuhan?"O":"X")+'</td><td>'+Jobj.data[i].confirmDate+'</td><td>'+isNull(Jobj.data[i].dischargeDate)+'</td></tr>';
+                    }
+                    html+='</tbody></table>';
+                    document.getElementById('content').innerHTML=html;
+                }else{
+                    alert("데이터 로딩에 실패하였습니다.")
+                }
+            }
+        }
+        xhr.send();
+    })();
+    function isNull(str){return typeof(str)=="undefined"?"":str;}
+    </script>
+</body>
+</html>
