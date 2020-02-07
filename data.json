@@ -1,9 +1,9 @@
 {
 	"info":{
-		"update":"2020-02-07 09:35",
+		"update":"2020-02-07 10:09",
 		"version":"0.0.2",
-		"Symptom_quarantine":169,
-		"Symptom_release":693
+		"Symptom_quarantine":264,
+		"Symptom_release":842
 	},
 	"data":[
 		{
@@ -304,7 +304,7 @@
 		{
 			"num":24,
 			"sex":"m",
-			"age":"20~29",
+			"age":28,
 			"parent":0,
 			"country":"kr",
 			"hospital":"국립중앙의료원",
