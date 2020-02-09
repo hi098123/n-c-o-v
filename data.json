@@ -1,6 +1,6 @@
 {
 	"info":{
-		"update":"2020-02-09 14:24",
+		"update":"2020-02-09 11:30",
 		"version":"0.0.3",
 		"Symptom_quarantine":960,
 		"Symptom_release":1355
@@ -319,7 +319,7 @@
 			"contact":0,
 			"wuhan":true,
 			"status":1,
-			"confirmDate":"2020-02-06"
+			"confirmDate":"2020-02-07"
 		},
 		{
 			"num":25,
