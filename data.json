@@ -1,6 +1,6 @@
 {
 	"info":{
-		"update":"2020-02-09 11:30",
+		"update":"2020-02-09 14:24",
 		"version":"0.0.3",
 		"Symptom_quarantine":960,
 		"Symptom_release":1355
@@ -67,7 +67,7 @@
 			"age":33,
 			"parent":0,
 			"country":"kr",
-			"contact":23,
+			"contact":31,
 			"hospital":"서울의료원",
 			"from":"우한 방문",
 			"wuhan":true,
@@ -93,7 +93,7 @@
 			"age":28,
 			"parent":0,
 			"country":"kr",
-			"contact":7,
+			"contact":9,
 			"hospital":"서울의료원",
 			"from":"우한 방문",
 			"wuhan":true,
@@ -132,7 +132,7 @@
 			"age":54,
 			"parent":6,
 			"country":"kr",
-			"contact":39,
+			"contact":43,
 			"hospital":"서울대병원",
 			"from":"#6 아내",
 			"wuhan":false,
@@ -147,7 +147,7 @@
 			"country":"kr",
 			"hospital":"서울대병원",
 			"from":"#6 아들",
-			"contact":39,
+			"contact":0,
 			"wuhan":false,
 			"status":1,
 			"confirmDate":"2020-01-31"
@@ -158,7 +158,7 @@
 			"age":48,
 			"parent":0,
 			"country":"cn",
-			"contact":219,
+			"contact":420,
 			"hospital":"분당서울대병원",
 			"from":"일본 방문",
 			"wuhan":false,
@@ -182,7 +182,7 @@
 			"num":14,
 			"sex":"w",
 			"age":40,
-			"parent":12,
+			"parent":3,
 			"country":"cn",
 			"contact":3,
 			"hospital":"분당서울대병원",
@@ -210,7 +210,7 @@
 			"age":42,
 			"parent":0,
 			"country":"kr",
-			"contact":362,
+			"contact":417,
 			"hospital":"전남대병원",
 			"from":"태국 방문",
 			"wuhan":false,
@@ -238,7 +238,7 @@
 			"country":"kr",
 			"hospital":"전남대병원",
 			"from":"#16 딸",
-			"contact":4,
+			"contact":8,
 			"wuhan":false,
 			"status":1,
 			"confirmDate":"2020-02-05"
@@ -251,7 +251,7 @@
 			"country":"kr",
 			"hospital":"서울의료원",
 			"from":"싱가포르 방문",
-			"contact":65,
+			"contact":67,
 			"wuhan":false,
 			"status":1,
 			"confirmDate":"2020-02-05"
@@ -264,7 +264,7 @@
 			"country":"kr",
 			"hospital":"국군수도병원",
 			"from":"#15 처제",
-			"contact":14,
+			"contact":2,
 			"wuhan":false,
 			"status":1,
 			"confirmDate":"2020-02-05"
@@ -319,7 +319,7 @@
 			"contact":0,
 			"wuhan":true,
 			"status":1,
-			"confirmDate":"2020-02-07"
+			"confirmDate":"2020-02-06"
 		},
 		{
 			"num":25,
@@ -328,10 +328,10 @@
 			"parent":0,
 			"country":"kr",
 			"hospital":"분당서울대병원",
-			"from":"중국 방문",
+			"from":"국내 감염",
 			"wuhan":false,
 			"status":1,
-			"confirmDate":"2020-02-09"
+			"confirmDate":"2020-02-07"
 		}
 	]
 }
