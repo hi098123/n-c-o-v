@@ -337,7 +337,7 @@
 			"num":26,
 			"sex":"m",
 			"age":51,
-			"parent":27,
+			"parent":0,
 			"country":"kr",
 			"hospital":"경기도의료원 안성병원",
 			"from":"광둥성 방문",
