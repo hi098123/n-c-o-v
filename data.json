@@ -1,9 +1,9 @@
 {
 	"info":{
-		"update":"2020-02-09 14:24",
+		"update":"2020-02-09 17:43",
 		"version":"0.0.3",
-		"Symptom_quarantine":960,
-		"Symptom_release":1355
+		"Symptom_quarantine":888,
+		"Symptom_release":1683
 	},
 	"data":[
 		{
@@ -325,10 +325,34 @@
 			"num":25,
 			"sex":"w",
 			"age":73,
-			"parent":0,
+			"parent":27,
 			"country":"kr",
 			"hospital":"분당서울대병원",
-			"from":"국내 감염",
+			"from":"#26 #27 가족",
+			"wuhan":false,
+			"status":1,
+			"confirmDate":"2020-02-09"
+		},
+		{
+			"num":26,
+			"sex":"m",
+			"age":51,
+			"parent":27,
+			"country":"kr",
+			"hospital":"경기도의료원 안성병원",
+			"from":"중국 광둥성 방문",
+			"wuhan":false,
+			"status":1,
+			"confirmDate":"2020-02-09"
+		},
+		{
+			"num":27,
+			"sex":"w",
+			"age":37,
+			"parent":0,
+			"country":"cn",
+			"hospital":"경기도의료원 안성병원",
+			"from":"중국 광둥성 방문",
 			"wuhan":false,
 			"status":1,
 			"confirmDate":"2020-02-09"
