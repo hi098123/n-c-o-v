@@ -1,9 +1,9 @@
 {
 	"info":{
-		"update":"2020-02-08 17:47",
+		"update":"2020-02-09 11:30",
 		"version":"0.0.3",
-		"Symptom_quarantine":939,
-		"Symptom_release":1134
+		"Symptom_quarantine":960,
+		"Symptom_release":1355
 	},
 	"data":[
 		{
@@ -319,6 +319,18 @@
 			"wuhan":true,
 			"status":1,
 			"confirmDate":"2020-02-07"
-		}
-	]
+		},{
+			"num":25,
+			"sex":"w",
+			"age":73,
+			"parent":0,
+			"country":"kr",
+			"hospital":"분당서울대병원",
+			"from":"중국 방문",
+			"contact":0,
+			"wuhan":false,
+			"status":1,
+			"confirmDate":"2020-02-09"
+		}	
+]
 }
