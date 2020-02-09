@@ -1,6 +1,6 @@
 {
 	"info":{
-		"update":"2020-02-09 11:30",
+		"update":"2020-02-09 14:24",
 		"version":"0.0.3",
 		"Symptom_quarantine":960,
 		"Symptom_release":1355
@@ -182,7 +182,7 @@
 			"num":14,
 			"sex":"w",
 			"age":40,
-			"parent":3,
+			"parent":12,
 			"country":"cn",
 			"contact":3,
 			"hospital":"분당서울대병원",
@@ -319,7 +319,7 @@
 			"contact":0,
 			"wuhan":true,
 			"status":1,
-			"confirmDate":"2020-02-07"
+			"confirmDate":"2020-02-06"
 		},
 		{
 			"num":25,
