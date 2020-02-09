@@ -319,7 +319,21 @@
 			"wuhan":true,
 			"status":1,
 			"confirmDate":"2020-02-07"
-		},{
+		},
+		{
+			"num":24,
+			"sex":"m",
+			"age":28,
+			"parent":0,
+			"country":"kr",
+			"hospital":"국립중앙의료원",
+			"from":"우한 교민",
+			"contact":0,
+			"wuhan":true,
+			"status":1,
+			"confirmDate":"2020-02-07"
+		},
+		{
 			"num":25,
 			"sex":"w",
 			"age":73,
@@ -327,10 +341,9 @@
 			"country":"kr",
 			"hospital":"분당서울대병원",
 			"from":"중국 방문",
-			"contact":0,
 			"wuhan":false,
 			"status":1,
 			"confirmDate":"2020-02-09"
-		}	
-]
+		}
+	]
 }
