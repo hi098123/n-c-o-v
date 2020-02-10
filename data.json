@@ -149,8 +149,9 @@
 			"from":"#6 아들",
 			"contact":0,
 			"wuhan":false,
-			"status":1,
-			"confirmDate":"2020-01-31"
+			"status":2,
+			"confirmDate":"2020-01-31",
+			"dischargeDate":"2020-02-10"
 		},
 		{
 			"num":12,
