@@ -1,6 +1,6 @@
 {
 	"info":{
-		"update":"2020-02-10 12:19",
+		"update":"2020-02-10 14:19",
 		"version":"0.0.3",
 		"Symptom_quarantine":809,
 		"Symptom_release":1940
@@ -329,6 +329,7 @@
 			"country":"kr",
 			"hospital":"분당서울대병원",
 			"from":"#26 #27 가족",
+			"contact":11,
 			"wuhan":false,
 			"status":1,
 			"confirmDate":"2020-02-09"
@@ -341,6 +342,7 @@
 			"country":"kr",
 			"hospital":"경기도의료원 안성병원",
 			"from":"광둥성 방문",
+			"contact":0,
 			"wuhan":false,
 			"status":1,
 			"confirmDate":"2020-02-09"
@@ -353,6 +355,7 @@
 			"country":"cn",
 			"hospital":"경기도의료원 안성병원",
 			"from":"광둥성 방문",
+			"contact":32,
 			"wuhan":false,
 			"status":1,
 			"confirmDate":"2020-02-09"
