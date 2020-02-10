@@ -7,7 +7,7 @@
     <meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, width=device-width">
     <title>데이터를 표로 보기</title>
     <meta name="description" content="신종 코로나(우한 폐렴) 감염자들의 관계도 데이터 파일 안내">
-    <meta property="og:url" content="https://ncov-korea.cf/post/version.html" >
+    <meta property="og:url" content="https://ncov-korea.com/post/version.html" >
     <meta property="og:site_name" content="2019-nCov 한국 감염표 JSON Data to csv, html table" >
     <meta property="og:title" content="2019-nCov 한국 감염표 JSON Data to csv, html table" >
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -19,6 +19,7 @@
 
       gtag('config', 'UA-136150577-3');
     </script>
+    <script data-ad-client="ca-pub-2722856117249943" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
     <style>
         html,body{margin: 0;text-align: center;padding: 0}
         a{text-decoration: none;color: #1565c0;}
@@ -29,7 +30,7 @@
             .top{margin: 0;}
         }
         table{margin: auto;}
-        #content{margin: 50px 0}
+        #content{margin: 50px 0;width: 100%;overflow-x: auto;}
     </style>
 </head>
 <body>
@@ -42,7 +43,7 @@
     <script>
     (function(){
         var xhr =new XMLHttpRequest;
-        xhr.open("GET" , 'https://ncov-korea.cf/data.json' , true);
+        xhr.open("GET" , 'https://ncov-korea.com/data.json' , true);
         xhr.onreadystatechange = function() {
             if(xhr.readyState == 4){
                 if(xhr.status == 200){
