@@ -33,7 +33,14 @@
 </head>
 <body>
     <h1 style="text-align: center;padding: 20px 0;margin: 0;background-color: #222;color: #fff;"><span style="display: inline-block;">신종 코로나 바이러스</span> <span style="display: inline-block;">확진자 현황</span></h1>
-    <h1 style="text-align: center;padding: 5px;margin: 0 0 20px;background-color: #E0E0E0;color: #000;font-size: 16px;"><span style="display: inline-block;margin: 6px">주소가 변경되었습니다.</span> <span style="display: inline-block;margin: 6px">ncov-korea.cf</span>-&gt;<span style="display: inline-block;margin: 6px"><a href="/">ncov-korea.com</a></span></h1>
+    <h1 id="domain" style="text-align: center;padding: 5px;margin: 0 0 20px;background-color: #E0E0E0;color: #000;font-size: 16px;"><span style="display: inline-block;margin: 6px">주소가 변경되었습니다.</span> <span style="display: inline-block;margin: 6px">ncov-korea.cf</span>-&gt;<span style="display: inline-block;margin: 6px"><a href="/">ncov-korea.com</a></span></h1>
+    <script>
+        (function(){
+            if(document.referrer.split("/")[2]!="ncov-korea.cf"){
+                document.getElementById("domain").style.display="none";
+            }
+        })();
+    </script>
     <div class="top">
         <!--<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
         <ins class="adsbygoogle"
