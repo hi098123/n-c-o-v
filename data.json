@@ -1,6 +1,6 @@
 {
 	"info":{
-		"update":"2020-02-11 11:19",
+		"update":"2020-02-11 14:04",
 		"version":"0.0.3",
 		"Symptom_quarantine":865,
 		"Symptom_release":2736
@@ -369,7 +369,7 @@
 			"country":"cn",
 			"hospital":"명지병원",
 			"from":"#3 지인",
-			"wuhan":false,
+			"wuhan":true,
 			"status":1,
 			"confirmDate":"2020-02-11"
 		}
