@@ -1,9 +1,9 @@
 {
 	"info":{
-		"update":"2020-02-10 17:49",
+		"update":"2020-02-11 11:19",
 		"version":"0.0.3",
-		"Symptom_quarantine":531,
-		"Symptom_release":2552
+		"Symptom_quarantine":865,
+		"Symptom_release":2736
 	},
 	"data":[
 		{
@@ -360,6 +360,18 @@
 			"wuhan":false,
 			"status":1,
 			"confirmDate":"2020-02-09"
+		},
+		{
+			"num":28,
+			"sex":"w",
+			"age":30,
+			"parent":3,
+			"country":"cn",
+			"hospital":"명지병원",
+			"from":"#3 지인",
+			"wuhan":false,
+			"status":1,
+			"confirmDate":"2020-02-11"
 		}
 	]
 }
