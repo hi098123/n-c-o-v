@@ -1,9 +1,9 @@
 {
 	"info":{
-		"update":"2020-02-12 14:02",
+		"update":"2020-02-12 17:19",
 		"version":"0.0.3",
-		"Symptom_quarantine":992,
-		"Symptom_release":4054
+		"Symptom_quarantine":785,
+		"Symptom_release":4811
 	},
 	"data":[
 		{
@@ -161,7 +161,7 @@
 			"age":48,
 			"parent":0,
 			"country":"cn",
-			"contact":421,
+			"contact":422,
 			"hospital":"분당서울대병원",
 			"from":"일본 방문",
 			"wuhan":false,
@@ -213,7 +213,7 @@
 			"age":42,
 			"parent":0,
 			"country":"kr",
-			"contact":441,
+			"contact":448,
 			"hospital":"전남대병원",
 			"from":"태국 방문",
 			"wuhan":false,
@@ -255,7 +255,7 @@
 			"country":"kr",
 			"hospital":"서울의료원",
 			"from":"싱가포르 방문",
-			"contact":67,
+			"contact":68,
 			"wuhan":false,
 			"status":1,
 			"confirmDate":"2020-02-05"
@@ -359,7 +359,7 @@
 			"country":"cn",
 			"hospital":"경기도의료원 안성병원",
 			"from":"광둥성 방문",
-			"contact":32,
+			"contact":37,
 			"wuhan":false,
 			"status":1,
 			"confirmDate":"2020-02-09"
@@ -372,6 +372,7 @@
 			"country":"cn",
 			"hospital":"명지병원",
 			"from":"#3 지인",
+			"contact":1,
 			"wuhan":true,
 			"status":1,
 			"confirmDate":"2020-02-10"
