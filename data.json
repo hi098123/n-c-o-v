@@ -1,6 +1,6 @@
 {
 	"info":{
-		"update":"2020-02-13 11:49",
+		"update":"2020-02-13 14:04",
 		"version":"0.0.3",
 		"Symptom_quarantine":670,
 		"Symptom_release":5099
@@ -213,7 +213,7 @@
 			"age":42,
 			"parent":0,
 			"country":"kr",
-			"contact":448,
+			"contact":450,
 			"hospital":"전남대병원",
 			"from":"태국 방문",
 			"wuhan":false,
