@@ -1,9 +1,9 @@
 {
 	"info":{
-		"update":"2020-02-16 13:06",
+		"update":"2020-02-16 17:02",
 		"version":"0.0.3",
-		"Symptom_quarantine":577,
-		"Symptom_release":7313
+		"Symptom_quarantine":485,
+		"Symptom_release":7647
 	},
 	"data":[
 		{
@@ -382,7 +382,7 @@
 		{
 			"num":29,
 			"sex":"m",
-			"age":82,
+			"age":81,
 			"parent":0,
 			"country":"kr",
 			"hospital":"서울대병원",
