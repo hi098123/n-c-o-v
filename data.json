@@ -1,9 +1,9 @@
 {
 	"info":{
-		"update":"2020-02-16 17:02",
+		"update":"2020-02-17 13:18",
 		"version":"0.0.3",
-		"Symptom_quarantine":485,
-		"Symptom_release":7647
+		"Symptom_quarantine":408,
+		"Symptom_release":7733
 	},
 	"data":[
 		{
@@ -390,6 +390,18 @@
 			"wuhan":false,
 			"status":1,
 			"confirmDate":"2020-02-16"
+		},
+		{
+			"num":30,
+			"sex":"w",
+			"age":68,
+			"parent":29,
+			"country":"kr",
+			"hospital":"서울대병원",
+			"from":"#29 부인",
+			"wuhan":false,
+			"status":1,
+			"confirmDate":"2020-02-17"
 		}
 	]
 }
