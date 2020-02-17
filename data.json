@@ -1,9 +1,9 @@
 {
 	"info":{
-		"update":"2020-02-17 13:18",
+		"update":"2020-02-17 17:13",
 		"version":"0.0.3",
-		"Symptom_quarantine":408,
-		"Symptom_release":7733
+		"Symptom_quarantine":708,
+		"Symptom_release":7980
 	},
 	"data":[
 		{
@@ -376,8 +376,9 @@
 			"from":"#3 지인",
 			"contact":1,
 			"wuhan":true,
-			"status":1,
-			"confirmDate":"2020-02-10"
+			"status":2,
+			"confirmDate":"2020-02-10",
+			"dischargeDate":"2020-02-17"
 		},
 		{
 			"num":29,
