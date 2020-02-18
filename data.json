@@ -1,9 +1,9 @@
 {
 	"info":{
-		"update":"2020-02-17 17:13",
+		"update":"2020-02-28 13:19",
 		"version":"0.0.3",
-		"Symptom_quarantine":708,
-		"Symptom_release":7980
+		"Symptom_quarantine":957,
+		"Symptom_release":8277
 	},
 	"data":[
 		{
@@ -404,6 +404,18 @@
 			"wuhan":false,
 			"status":1,
 			"confirmDate":"2020-02-16"
+		},
+		{
+			"num":31,
+			"sex":"w",
+			"age":61,
+			"parent":0,
+			"country":"kr",
+			"hospital":"대구의료원",
+			"from":"국내 감염",
+			"wuhan":false,
+			"status":1,
+			"confirmDate":"2020-02-17"
 		}
 	]
 }
