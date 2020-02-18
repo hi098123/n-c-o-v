@@ -166,8 +166,9 @@
 			"hospital":"분당서울대병원",
 			"from":"일본 방문",
 			"wuhan":false,
-			"status":1,
-			"confirmDate":"2020-02-01"
+			"status":2,
+			"confirmDate":"2020-02-01",
+			"dischargeDate":"2020-02-18"
 		},
 		{
 			"num":13,
@@ -192,8 +193,9 @@
 			"hospital":"분당서울대병원",
 			"from":"#12 아내",
 			"wuhan":false,
-			"status":1,
-			"confirmDate":"2020-02-02"
+			"status":2,
+			"confirmDate":"2020-02-02",
+			"dischargeDate":"2020-02-18"
 		},
 		{
 			"num":15,
