@@ -1,6 +1,6 @@
 {
 	"info":{
-		"update":"2020-02-18 13:19",
+		"update":"2020-02-18 14:03",
 		"version":"0.0.3",
 		"Symptom_quarantine":957,
 		"Symptom_release":8277
@@ -388,7 +388,7 @@
 			"country":"kr",
 			"hospital":"서울대병원",
 			"from":"국내 감염?",
-			"contact":114,
+			"contact":115,
 			"wuhan":false,
 			"status":1,
 			"confirmDate":"2020-02-16"
@@ -401,6 +401,7 @@
 			"country":"kr",
 			"hospital":"서울대병원",
 			"from":"#29 부인",
+			"contact":20,
 			"wuhan":false,
 			"status":1,
 			"confirmDate":"2020-02-16"
