@@ -664,6 +664,30 @@
 			"wuhan":false,
 			"status":1,
 			"confirmDate":"2020-02-19"
+		},
+		{
+			"num":52,
+			"sex":"0",
+			"age":"?",
+			"parent":0,
+			"country":"kr",
+			"hospital":"확인중",
+			"from":"국내 감염?",
+			"wuhan":false,
+			"status":1,
+			"confirmDate":"2020-02-19"
+		},
+		{
+			"num":53,
+			"sex":"0",
+			"age":"?",
+			"parent":0,
+			"country":"kr",
+			"hospital":"확인중",
+			"from":"국내 감염?",
+			"wuhan":false,
+			"status":1,
+			"confirmDate":"2020-02-19"
 		}
 	]
 }
