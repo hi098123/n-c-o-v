@@ -1,9 +1,9 @@
 {
 	"info":{
-		"update":"2020-02-19 14:06",
+		"update":"2020-02-19 17:01",
 		"version":"0.0.3",
-		"Symptom_quarantine":1030,
-		"Symptom_release":9335
+		"Symptom_quarantine":1149,
+		"Symptom_release":9973
 	},
 	"data":[
 		{
@@ -600,6 +600,66 @@
 			"parent":31,
 			"country":"kr",
 			"hospital":"대구의료원",
+			"from":"#31 접촉자",
+			"wuhan":false,
+			"status":1,
+			"confirmDate":"2020-02-19"
+		},
+		{
+			"num":47,
+			"sex":"",
+			"age":"?",
+			"parent":31,
+			"country":"kr",
+			"hospital":"확인중",
+			"from":"#31 접촉자",
+			"wuhan":false,
+			"status":1,
+			"confirmDate":"2020-02-19"
+		},
+		{
+			"num":48,
+			"sex":"",
+			"age":"?",
+			"parent":31,
+			"country":"kr",
+			"hospital":"확인중",
+			"from":"#31 접촉자",
+			"wuhan":false,
+			"status":1,
+			"confirmDate":"2020-02-19"
+		},
+		{
+			"num":49,
+			"sex":"",
+			"age":"?",
+			"parent":31,
+			"country":"kr",
+			"hospital":"확인중",
+			"from":"#31 접촉자",
+			"wuhan":false,
+			"status":1,
+			"confirmDate":"2020-02-19"
+		},
+		{
+			"num":50,
+			"sex":"",
+			"age":"?",
+			"parent":31,
+			"country":"kr",
+			"hospital":"확인중",
+			"from":"#31 접촉자",
+			"wuhan":false,
+			"status":1,
+			"confirmDate":"2020-02-19"
+		},
+		{
+			"num":51,
+			"sex":"",
+			"age":"?",
+			"parent":31,
+			"country":"kr",
+			"hospital":"확인중",
 			"from":"#31 접촉자",
 			"wuhan":false,
 			"status":1,
