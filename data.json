@@ -444,7 +444,7 @@
 			"parent":31,
 			"country":"kr",
 			"hospital":"대구의료원",
-			"from":"#31 접촉자",
+			"from":"새로난한방병원 직원",
 			"wuhan":false,
 			"status":1,
 			"confirmDate":"2020-02-18"
@@ -456,7 +456,7 @@
 			"parent":31,
 			"country":"kr",
 			"hospital":"대구의료원",
-			"from":"#31 접촉자",
+			"from":"#31 교회접촉자",
 			"wuhan":false,
 			"status":1,
 			"confirmDate":"2020-02-18"
@@ -468,7 +468,7 @@
 			"parent":31,
 			"country":"kr",
 			"hospital":"대구의료원",
-			"from":"#31 접촉자",
+			"from":"#31 교회접촉자",
 			"wuhan":false,
 			"status":1,
 			"confirmDate":"2020-02-18"
@@ -480,7 +480,7 @@
 			"parent":31,
 			"country":"kr",
 			"hospital":"대구의료원",
-			"from":"#31 접촉자",
+			"from":"#31 교회접촉자",
 			"wuhan":false,
 			"status":1,
 			"confirmDate":"2020-02-18"
@@ -492,7 +492,7 @@
 			"parent":31,
 			"country":"kr",
 			"hospital":"경북대학교병원",
-			"from":"#31 접촉자",
+			"from":"#31 교회접촉자",
 			"wuhan":false,
 			"status":1,
 			"confirmDate":"2020-02-18"
@@ -501,10 +501,10 @@
 			"num":38,
 			"sex":"w",
 			"age":57,
-			"parent":0,
+			"parent":31,
 			"country":"kr",
 			"hospital":"경북대학교병원",
-			"from":"국내 감염?",
+			"from":"#31 접촉자",
 			"wuhan":false,
 			"status":1,
 			"confirmDate":"2020-02-18"
@@ -516,7 +516,7 @@
 			"parent":31,
 			"country":"kr",
 			"hospital":"동국대학교경주병원",
-			"from":"#31 접촉자",
+			"from":"#31 교회접촉자",
 			"wuhan":false,
 			"status":1,
 			"confirmDate":"2020-02-18"
@@ -540,7 +540,7 @@
 			"parent":31,
 			"country":"kr",
 			"hospital":"동국대학교경주병원",
-			"from":"#31 접촉자",
+			"from":"#31 교회접촉자",
 			"wuhan":false,
 			"status":1,
 			"confirmDate":"2020-02-19"
@@ -552,7 +552,7 @@
 			"parent":31,
 			"country":"kr",
 			"hospital":"대구의료원",
-			"from":"#31 접촉자",
+			"from":"#31 교회접촉자",
 			"wuhan":false,
 			"status":1,
 			"confirmDate":"2020-02-19"
@@ -564,7 +564,7 @@
 			"parent":31,
 			"country":"kr",
 			"hospital":"계명대학교병원",
-			"from":"#31 접촉자",
+			"from":"#31 교회접촉자",
 			"wuhan":false,
 			"status":1,
 			"confirmDate":"2020-02-19"
@@ -576,7 +576,7 @@
 			"parent":31,
 			"country":"kr",
 			"hospital":"계명대학교병원",
-			"from":"#31 접촉자",
+			"from":"#31 교회접촉자",
 			"wuhan":false,
 			"status":1,
 			"confirmDate":"2020-02-19"
@@ -588,7 +588,7 @@
 			"parent":31,
 			"country":"kr",
 			"hospital":"대구의료원",
-			"from":"#31 접촉자",
+			"from":"#31 교회접촉자",
 			"wuhan":false,
 			"status":1,
 			"confirmDate":"2020-02-19"
@@ -597,10 +597,10 @@
 			"num":46,
 			"sex":"w",
 			"age":28,
-			"parent":0,
+			"parent":31,
 			"country":"kr",
 			"hospital":"대구의료원",
-			"from":"국내 감염?",
+			"from":"#31 접촉자",
 			"wuhan":false,
 			"status":1,
 			"confirmDate":"2020-02-19"
