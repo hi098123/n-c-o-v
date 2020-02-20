@@ -57,6 +57,7 @@
         </script>-->
     </div>
     <div class="chart" id="nCov"> 표 생성중. . . 계속 생성중이라면, 새로고침 해주세요 </div>
+    <p class="content">남성 : <span style="color: #99d9ea">■</span> | 여성 : <span style="color: #ffaec9">■</span> | 확인중 : <span style="color: #c3c3c3">■</span></p>
     <div class="content">
         <!--<p>남성 : <span style="color: #99d9ea">■</span> | 여성 : <span style="color: #ffaec9">■</span> | 확인중 : <span style="color: #c3c3c3">■</span></p>
         <p><span style="color: #4CAF50">#번호</span> : 완치 | <span style="font-weight: bold;color: #fff;background-color: #e65100;padding: 0 3px;border-radius: 3px;font-size: 14px;">N</span> : 2일 이내 확진자</p>
@@ -66,7 +67,7 @@
         <p>* 정확한 업데이트를 위해 확진자는 확진자 번호가 부여된 후(보통 2시 브리핑) 업데이트 될 수 있습니다.</p>
         <p><span style="color: #b71c1c;font-weight: bold;font-size: 2em;">↓</span> : 감염수칙을 지키지 않아 감염된 사례</p>
         <br>
-        <h3>통계</h3>
+        <h3>통계 <span id="stats_ex"></span></h3>
         <div id="stats"></div>
         <br>
         <h3>그래프 통계</h3>
@@ -173,7 +174,7 @@
     <script>
         (function(){
             var s = document.createElement("script");
-            s.src='js.min.js?'+parseInt(new Date().getTime()/60000);
+            s.src='js.js?'+parseInt(new Date().getTime()/60000);
             document.body.appendChild(s);
         })();
     </script>
