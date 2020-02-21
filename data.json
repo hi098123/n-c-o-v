@@ -283,8 +283,9 @@
 			"from2":"서울",
 			"contact":68,
 			"wuhan":false,
-			"status":1,
-			"confirmDate":"2020-02-05"
+			"status":2,
+			"confirmDate":"2020-02-05",
+			"dischargeDate":"2020-02-06"
 		},
 		{
 			"num":20,
