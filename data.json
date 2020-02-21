@@ -1,6 +1,6 @@
 {
 	"info":{
-		"update":"2020-02-21 17:00",
+		"update":"2020-02-21 20:12",
 		"version":"0.0.3",
 		"Symptom_quarantine":3180,
 		"Symptom_release":13016
@@ -1363,8 +1363,9 @@
 			"hospital":"확인중",
 			"from":"국내 감염?",
 			"wuhan":false,
-			"status":1,
-			"confirmDate":"2020-02-21"
+			"status":0,
+			"confirmDate":"2020-02-21",
+			"deathDate":"2020-02-21"
 		},
 		{
 			"num":106,
