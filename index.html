@@ -22,6 +22,7 @@
     <meta property="og:site_name" content="COVID-19(2019-nCov) 한국 감염표" >
     <meta property="og:title" content="COVID-19(2019-nCov) 한국 감염표" >
     <meta property="og:image" content="/imgs/main.png" />
+    <meta property="og:type" content="website" />
     <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"></script>
     <script src="https://developers.kakao.com/sdk/js/kakao.min.js"></script>
     <style>
@@ -62,9 +63,21 @@
              (adsbygoogle = window.adsbygoogle || []).push({});
         </script>-->
     </div>
-    <div class="chart" id="nCov"> 표 생성중. . . 계속 생성중이라면, 새로고침 해주세요 <span id="loading">(##/##)</span></div>
-    <p class="pad"><span style="display: inline-block;">남성 : <span style="color: #99d9ea">■</span></span> | <span style="display: inline-block;">여성 : <span style="color: #ffaec9">■</span></span> | <span style="display: inline-block;">확인중 : <span style="color: #c3c3c3">■</span></span> | <span style="display: inline-block;">신규 : <span style="color: #fff;font-weight: bold;background-color: #e65100;padding: 0 3px;border-radius: 3px;">N</span></span>
-        <span style="float: right;"><a id="kakao-link-btn" href="javascript:;" style="font-size: 14px;margin: 0 10px">
+    <noscript>
+        <div class="pad">
+            <h1>이 페이지는 자바스크립트를 사용합니다.</h1>
+            <h1>THIS PAGE USE JavaScript.</h1>
+            <br>
+            <h2>페이지의 내용을 보기위해 자바스크립트를 사용해주셔야됩니다.</h2>
+            <h2>You must turn on JavaScript for view this page.</h2>
+        </div>
+        <style type="text/css">
+            .content,.chart,p.pad,#domain{display: none;}
+        </style>
+    </noscript>
+    <div class="chart" id="nCov"><span class="pad">표 생성중. . . 계속 생성중이라면, 새로고침 해주세요 <span id="loading">(##/##)</span></span></div>
+    <p class="pad"><span style="display: inline-block;">남성 : <span style="color: #99d9ea">■</span></span> | <span style="display: inline-block;margin: 0 0 10px">여성 : <span style="color: #ffaec9">■</span></span> | <span style="display: inline-block;">확인중 : <span style="color: #c3c3c3">■</span></span> | <span style="display: inline-block;">신규 : <span style="color: #fff;font-weight: bold;background-color: #e65100;padding: 0 3px;border-radius: 3px;">N</span></span>
+        <span style="float: right"><a id="kakao-link-btn" href="javascript:;" style="font-size: 14px">
         <img style="width: 24px;vertical-align: middle;" src="https://developers.kakao.com/assets/img/about/logos/kakaolink/kakaolink_btn_medium.png"/> <span>카카오톡 공유하기</span>
         </a></span>
     </p>
