@@ -23,6 +23,7 @@
     <meta property="og:title" content="COVID-19(2019-nCov) 한국 감염표" >
     <meta property="og:image" content="/imgs/main.png" />
     <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"></script>
+    <script src="https://developers.kakao.com/sdk/js/kakao.min.js"></script>
     <style>
         .stats_inner{display:inline-block;margin: 0 50px 0 0;vertical-align: top;}
         #stats{margin: 10px;}
@@ -30,6 +31,11 @@
         .today_new:before{content: 'N';position: absolute;font-weight: bold;color: #fff;left: 2px;top: 2px;background-color: #e65100;padding: 0 3px;border-radius: 3px;}
         @media(max-width:400px){
             .stats_inner{margin: 0;}
+        }
+        .pad{
+            max-width: 900px;
+            margin: auto;
+            padding: 20px;
         }
     </style>
 </head>
@@ -57,7 +63,15 @@
         </script>-->
     </div>
     <div class="chart" id="nCov"> 표 생성중. . . 계속 생성중이라면, 새로고침 해주세요 <span id="loading">(##/##)</span></div>
-    <p class="content">남성 : <span style="color: #99d9ea">■</span> | 여성 : <span style="color: #ffaec9">■</span> | 확인중 : <span style="color: #c3c3c3">■</span></p>
+    <p class="pad">남성 : <span style="color: #99d9ea">■</span> | 여성 : <span style="color: #ffaec9">■</span> | 확인중 : <span style="color: #c3c3c3">■</span> | 신규 : <span style="color: #fff;font-weight: bold;background-color: #e65100;padding: 0 3px;border-radius: 3px;">N</span></p>
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/ko_KR/sdk.js#xfbml=1&version=v6.0"></script>
+    <div class="pad">
+        <span><a id="kakao-link-btn" href="javascript:;" style="font-size: 14px;margin: 0 10px">
+        <img style="width: 24px;vertical-align: middle;" src="https://developers.kakao.com/assets/img/about/logos/kakaolink/kakaolink_btn_medium.png"/> <span>카카오톡 공유하기</span>
+        </a></span>
+        <div class="fb-share-button" style="margin: 0 10px;vertical-align: middle;" data-href="https://ncov-korea.com/" data-layout="button_count" data-size="small"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fncov-korea.com%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">공유하기</a></div>
+    </div>
     <div class="content">
         <!--<p>남성 : <span style="color: #99d9ea">■</span> | 여성 : <span style="color: #ffaec9">■</span> | 확인중 : <span style="color: #c3c3c3">■</span></p>
         <p><span style="color: #4CAF50">#번호</span> : 완치 | <span style="font-weight: bold;color: #fff;background-color: #e65100;padding: 0 3px;border-radius: 3px;font-size: 14px;">N</span> : 2일 이내 확진자</p>
@@ -176,6 +190,7 @@
             var s = document.createElement("script");
             s.src='js.min.js?'+parseInt(new Date().getTime()/60000);
             document.body.appendChild(s);
+            Kakao.init("5884b0444b8170b916743d782e5f930e"),Kakao.Link.createDefaultButton({container:"#kakao-link-btn",objectType:"feed",content:{title:"코로나 현황표",description:"#코로나 #코로나현황표 #코로나확진자 #코로나정보",imageUrl:"https://ncov-korea.com/imgs/main.png",link:{mobileWebUrl:"https://ncov-korea.com",webUrl:"https://ncov-korea.com"}},buttons:[{title:"웹으로 보기",link:{mobileWebUrl:"https://ncov-korea.com",webUrl:"https://ncov-korea.com"}},{title:"앱으로 보기",link:{mobileWebUrl:"https://ncov-korea.com",webUrl:"https://ncov-korea.com"}}]});
         })();
     </script>
 <div id="alertMsg" style="display: none;"><span class="xbtn" title="닫기" onclick="document.getElementById('alertMsg').style.display='none';">X</span><h2 id="title_"></h2><div id="info_"></div></div>
