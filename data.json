@@ -1089,8 +1089,8 @@
 		},
 		{
 			"num":83,
-			"sex":"0",
-			"age":"?",
+			"sex":"m",
+			"age":56,
 			"parent":6,
 			"country":"kr",
 			"hospital":"확인중",
@@ -1439,8 +1439,8 @@
 		},
 		{
 			"num":112,
-			"sex":"0",
-			"age":"?",
+			"sex":"w",
+			"age":79,
 			"parent":136,
 			"country":"kr",
 			"hospital":"확인중",
@@ -1727,8 +1727,8 @@
 		},
 		{
 			"num":136,
-			"sex":"0",
-			"age":"?",
+			"sex":"m",
+			"age":84,
 			"parent":83,
 			"country":"kr",
 			"hospital":"확인중",
