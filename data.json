@@ -536,6 +536,9 @@
 			"country":"kr",
 			"hospital":"경북대학교병원",
 			"from":"국내 감염?",
+			"from2":"경상북도",
+			"from3":"영천시",
+			"from4":"동부동",
 			"wuhan":false,
 			"status":1,
 			"confirmDate":"2020-02-18"
@@ -562,8 +565,12 @@
 			"country":"kr",
 			"hospital":"동국대학교경주병원",
 			"from":"#31 교회접촉자",
+			"from2":"경상북도",
+			"from3":"영천시",
+			"from3":"중앙동",
 			"wuhan":false,
 			"status":1,
+			"s":1,
 			"confirmDate":"2020-02-18"
 		},
 		{
@@ -929,8 +936,11 @@
 			"age":22,
 			"parent":0,
 			"country":"kr",
-			"hospital":"확인중",
+			"hospital":"안동의료원",
 			"from":"국내 감염?",
+			"from2":"경상북도",
+			"from3":"영천시",
+			"from4":"동부동",
 			"wuhan":false,
 			"status":1,
 			"confirmDate":"2020-02-19"
@@ -941,9 +951,12 @@
 			"age":29,
 			"parent":0,
 			"country":"kr",
-			"hospital":"확인중",
+			"hospital":"포항의료원",
 			"from":"국내 감염?",
+			"from2":"경상북도",
+			"from3":"경산시",
 			"wuhan":false,
+			"s":1,
 			"status":1,
 			"confirmDate":"2020-02-20"
 		},
@@ -1015,7 +1028,7 @@
 			"from3":"달서구",
 			"wuhan":false,
 			"status":1,
-			"confirmDate":"2020-02-20"
+			"confirmDate":"2020-02-19"
 		},
 		{
 			"num":73,
@@ -1023,11 +1036,14 @@
 			"age":19,
 			"parent":0,
 			"country":"kr",
-			"hospital":"확인중",
+			"hospital":"포항의료원",
 			"from":"국내 감염?",
+			"from2":"경상북도",
+			"from3":"경산시",
 			"wuhan":false,
+			"s":1,
 			"status":1,
-			"confirmDate":"2020-02-20"
+			"confirmDate":"2020-02-19"
 		},
 		{
 			"num":74,
@@ -1266,13 +1282,16 @@
 		},
 		{
 			"num":91,
-			"sex":"0",
-			"age":"?",
+			"sex":"w",
+			"age":46,
 			"parent":0,
 			"country":"kr",
-			"hospital":"확인중",
+			"hospital":"김천의료원",
 			"from":"국내 감염?",
+			"from2":"경상북도",
+			"from3":"경산시",
 			"wuhan":false,
+			"s":1,
 			"status":1,
 			"confirmDate":"2020-02-20"
 		},
@@ -1435,26 +1454,31 @@
 		},
 		{
 			"num":105,
-			"sex":"0",
-			"age":"?",
+			"sex":"w",
+			"age":55,
 			"parent":0,
 			"country":"kr",
-			"hospital":"확인중",
+			"hospital":"김천의료원",
 			"from":"국내 감염?",
+			"from2":"경상북도",
+			"from3":"경산시",
 			"wuhan":false,
-			"status":0,
-			"confirmDate":"2020-02-21",
-			"deathDate":"2020-02-21"
+			"s":1,
+			"status":1,
+			"confirmDate":"2020-02-21"
 		},
 		{
 			"num":106,
-			"sex":"0",
-			"age":"?",
+			"sex":"w",
+			"age":29,
 			"parent":0,
 			"country":"kr",
-			"hospital":"확인중",
+			"hospital":"김천의료원",
 			"from":"국내 감염?",
+			"from2":"경상북도",
+			"from3":"경산시",
 			"wuhan":false,
+			"s":1,
 			"status":1,
 			"confirmDate":"2020-02-21"
 		},
@@ -1467,8 +1491,9 @@
 			"hospital":"확인중",
 			"from":"국내 감염?",
 			"wuhan":false,
-			"status":1,
-			"confirmDate":"2020-02-21"
+			"status":0,
+			"confirmDate":"2020-02-21",
+			"deathDate":"2020-02-21"
 		},
 		{
 			"num":108,
@@ -2652,12 +2677,13 @@
 		},
 		{
 			"num":200,
-			"sex":"0",
-			"age":"?",
+			"sex":"m",
+			"age":19,
 			"parent":0,
 			"country":"kr",
 			"hospital":"확인중",
 			"from":"국내 감염?",
+			"from2":"부산",
 			"wuhan":false,
 			"status":1,
 			"confirmDate":"2020-02-21"
@@ -2720,7 +2746,7 @@
 		    "from":"국내 감염?",
 		    "wuhan":false,
 		    "status":1,
-		    "confirmDate":"2020-02-22"
+		    "confirmDate":"2020-02-21"
 		},
 		{ 
 		    "num":206,
@@ -2732,7 +2758,7 @@
 		    "from":"국내 감염?",
 		    "wuhan":false,
 		    "status":1,
-		    "confirmDate":"2020-02-22"
+		    "confirmDate":"2020-02-21"
 		},
 		{ 
 		    "num":207,
@@ -2744,7 +2770,7 @@
 		    "from":"국내 감염?",
 		    "wuhan":false,
 		    "status":1,
-		    "confirmDate":"2020-02-22"
+		    "confirmDate":"2020-02-21"
 		},
 		{ 
 		    "num":208,
@@ -2756,7 +2782,7 @@
 		    "from":"국내 감염?",
 		    "wuhan":false,
 		    "status":1,
-		    "confirmDate":"2020-02-22"
+		    "confirmDate":"2020-02-21"
 		},
 		{ 
 		    "num":209,
@@ -2768,7 +2794,7 @@
 		    "from":"국내 감염?",
 		    "wuhan":false,
 		    "status":1,
-		    "confirmDate":"2020-02-22"
+		    "confirmDate":"2020-02-21"
 		},
 		{ 
 		    "num":210,
@@ -2780,7 +2806,7 @@
 		    "from":"국내 감염?",
 		    "wuhan":false,
 		    "status":1,
-		    "confirmDate":"2020-02-22"
+		    "confirmDate":"2020-02-21"
 		},
 		{ 
 		    "num":211,
@@ -2792,7 +2818,7 @@
 		    "from":"국내 감염?",
 		    "wuhan":false,
 		    "status":1,
-		    "confirmDate":"2020-02-22"
+		    "confirmDate":"2020-02-21"
 		},
 		{ 
 		    "num":212,
@@ -2804,7 +2830,7 @@
 		    "from":"국내 감염?",
 		    "wuhan":false,
 		    "status":1,
-		    "confirmDate":"2020-02-22"
+		    "confirmDate":"2020-02-21"
 		},
 		{ 
 		    "num":213,
@@ -2816,7 +2842,7 @@
 		    "from":"국내 감염?",
 		    "wuhan":false,
 		    "status":1,
-		    "confirmDate":"2020-02-22"
+		    "confirmDate":"2020-02-21"
 		},
 		{ 
 		    "num":214,
@@ -2828,7 +2854,7 @@
 		    "from":"국내 감염?",
 		    "wuhan":false,
 		    "status":1,
-		    "confirmDate":"2020-02-22"
+		    "confirmDate":"2020-02-21"
 		},
 		{ 
 		    "num":215,
@@ -2840,7 +2866,7 @@
 		    "from":"국내 감염?",
 		    "wuhan":false,
 		    "status":1,
-		    "confirmDate":"2020-02-22"
+		    "confirmDate":"2020-02-21"
 		},
 		{ 
 		    "num":216,
@@ -2852,7 +2878,7 @@
 		    "from":"국내 감염?",
 		    "wuhan":false,
 		    "status":1,
-		    "confirmDate":"2020-02-22"
+		    "confirmDate":"2020-02-21"
 		},
 		{ 
 		    "num":217,
@@ -2864,7 +2890,7 @@
 		    "from":"국내 감염?",
 		    "wuhan":false,
 		    "status":1,
-		    "confirmDate":"2020-02-22"
+		    "confirmDate":"2020-02-21"
 		},
 		{ 
 		    "num":218,
@@ -2876,7 +2902,7 @@
 		    "from":"국내 감염?",
 		    "wuhan":false,
 		    "status":1,
-		    "confirmDate":"2020-02-22"
+		    "confirmDate":"2020-02-21"
 		},
 		{ 
 		    "num":219,
@@ -2888,7 +2914,7 @@
 		    "from":"국내 감염?",
 		    "wuhan":false,
 		    "status":1,
-		    "confirmDate":"2020-02-22"
+		    "confirmDate":"2020-02-21"
 		},
 		{ 
 		    "num":220,
@@ -2900,7 +2926,7 @@
 		    "from":"국내 감염?",
 		    "wuhan":false,
 		    "status":1,
-		    "confirmDate":"2020-02-22"
+		    "confirmDate":"2020-02-21"
 		},
 		{ 
 		    "num":221,
@@ -2912,7 +2938,7 @@
 		    "from":"국내 감염?",
 		    "wuhan":false,
 		    "status":1,
-		    "confirmDate":"2020-02-22"
+		    "confirmDate":"2020-02-21"
 		},
 		{ 
 		    "num":222,
@@ -2924,7 +2950,7 @@
 		    "from":"국내 감염?",
 		    "wuhan":false,
 		    "status":1,
-		    "confirmDate":"2020-02-22"
+		    "confirmDate":"2020-02-21"
 		},
 		{ 
 		    "num":223,
@@ -2936,7 +2962,7 @@
 		    "from":"국내 감염?",
 		    "wuhan":false,
 		    "status":1,
-		    "confirmDate":"2020-02-22"
+		    "confirmDate":"2020-02-21"
 		},
 		{ 
 		    "num":224,
@@ -2948,7 +2974,7 @@
 		    "from":"국내 감염?",
 		    "wuhan":false,
 		    "status":1,
-		    "confirmDate":"2020-02-22"
+		    "confirmDate":"2020-02-21"
 		},
 		{ 
 		    "num":225,
@@ -2960,7 +2986,7 @@
 		    "from":"국내 감염?",
 		    "wuhan":false,
 		    "status":1,
-		    "confirmDate":"2020-02-22"
+		    "confirmDate":"2020-02-21"
 		},
 		{ 
 		    "num":226,
@@ -2972,7 +2998,7 @@
 		    "from":"국내 감염?",
 		    "wuhan":false,
 		    "status":1,
-		    "confirmDate":"2020-02-22"
+		    "confirmDate":"2020-02-21"
 		},
 		{ 
 		    "num":227,
@@ -2984,7 +3010,7 @@
 		    "from":"국내 감염?",
 		    "wuhan":false,
 		    "status":1,
-		    "confirmDate":"2020-02-22"
+		    "confirmDate":"2020-02-21"
 		},
 		{ 
 		    "num":228,
@@ -2996,7 +3022,7 @@
 		    "from":"국내 감염?",
 		    "wuhan":false,
 		    "status":1,
-		    "confirmDate":"2020-02-22"
+		    "confirmDate":"2020-02-21"
 		},
 		{ 
 		    "num":229,
@@ -3008,7 +3034,7 @@
 		    "from":"국내 감염?",
 		    "wuhan":false,
 		    "status":1,
-		    "confirmDate":"2020-02-22"
+		    "confirmDate":"2020-02-21"
 		},
 		{ 
 		    "num":230,
@@ -3020,19 +3046,20 @@
 		    "from":"국내 감염?",
 		    "wuhan":false,
 		    "status":1,
-		    "confirmDate":"2020-02-22"
+		    "confirmDate":"2020-02-21"
 		},
 		{ 
 		    "num":231,
-		    "sex":"0",
-		    "age":"?",
+		    "sex":"w",
+		    "age":57,
 		    "parent":0,
 		    "country":"kr",
 		    "hospital":"확인중",
 		    "from":"국내 감염?",
+			"from2":"부산",
 		    "wuhan":false,
 		    "status":1,
-		    "confirmDate":"2020-02-22"
+		    "confirmDate":"2020-02-21"
 		},
 		{ 
 		    "num":232,
@@ -3044,7 +3071,7 @@
 		    "from":"국내 감염?",
 		    "wuhan":false,
 		    "status":1,
-		    "confirmDate":"2020-02-22"
+		    "confirmDate":"2020-02-21"
 		},
 		{ 
 		    "num":233,
@@ -3056,67 +3083,78 @@
 		    "from":"국내 감염?",
 		    "wuhan":false,
 		    "status":1,
-		    "confirmDate":"2020-02-22"
+		    "confirmDate":"2020-02-21"
 		},
 		{ 
 		    "num":234,
-		    "sex":"0",
-		    "age":"?",
+		    "sex":"w",
+		    "age":46,
 		    "parent":0,
 		    "country":"kr",
 		    "hospital":"확인중",
 		    "from":"국내 감염?",
-		    "wuhan":false,
+			"from2":"경상북도",
+			"from3":"경산시",
+			"wuhan":false,
+			"s":1,
 		    "status":1,
-		    "confirmDate":"2020-02-22"
+		    "confirmDate":"2020-02-21"
 		},
 		{ 
 		    "num":235,
-		    "sex":"0",
-		    "age":"?",
+		    "sex":"m",
+		    "age":52,
 		    "parent":0,
 		    "country":"kr",
-		    "hospital":"확인중",
+		    "hospital":"김천의료원",
 		    "from":"국내 감염?",
 		    "wuhan":false,
 		    "status":1,
-		    "confirmDate":"2020-02-22"
+		    "confirmDate":"2020-02-21"
 		},
 		{ 
 		    "num":236,
-		    "sex":"0",
-		    "age":"?",
+		    "sex":"m",
+		    "age":37,
 		    "parent":0,
 		    "country":"kr",
-		    "hospital":"확인중",
+		    "hospital":"김천의료원",
 		    "from":"국내 감염?",
-		    "wuhan":false,
+			"from2":"경상북도",
+			"from3":"경산시",
+			"wuhan":false,
+			"s":1,
 		    "status":1,
-		    "confirmDate":"2020-02-22"
+		    "confirmDate":"2020-02-21"
 		},
 		{ 
 		    "num":237,
-		    "sex":"0",
-		    "age":"?",
+		    "sex":"w",
+		    "age":20,
 		    "parent":0,
 		    "country":"kr",
 		    "hospital":"확인중",
 		    "from":"국내 감염?",
+			"from2":"경상북도",
+			"from3":"경산시",
 		    "wuhan":false,
+			"s":1,
 		    "status":1,
-		    "confirmDate":"2020-02-22"
+		    "confirmDate":"2020-02-21"
 		},
 		{ 
 		    "num":238,
-		    "sex":"0",
-		    "age":"?",
+		    "sex":"m",
+		    "age":54,
 		    "parent":0,
 		    "country":"kr",
 		    "hospital":"확인중",
 		    "from":"국내 감염?",
+			"from2":"경상북도",
+			"from3":"경산시",
 		    "wuhan":false,
 		    "status":1,
-		    "confirmDate":"2020-02-22"
+		    "confirmDate":"2020-02-21"
 		},
 		{ 
 		    "num":239,
@@ -3128,19 +3166,22 @@
 		    "from":"국내 감염?",
 		    "wuhan":false,
 		    "status":1,
-		    "confirmDate":"2020-02-22"
+		    "confirmDate":"2020-02-21"
 		},
 		{ 
 		    "num":240,
-		    "sex":"0",
-		    "age":"?",
+		    "sex":"w",
+		    "age":42,
 		    "parent":0,
 		    "country":"kr",
-		    "hospital":"확인중",
+		    "hospital":"김천의료원",
 		    "from":"국내 감염?",
+			"from2":"경상북도",
+			"from3":"경산시",
 		    "wuhan":false,
+			"s":1,
 		    "status":1,
-		    "confirmDate":"2020-02-22"
+		    "confirmDate":"2020-02-21"
 		},
 		{ 
 		    "num":241,
