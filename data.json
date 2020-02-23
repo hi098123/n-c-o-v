@@ -1,6 +1,6 @@
 {
 	"info":{
-		"update":"2020-02-23 12:50",
+		"update":"2020-02-23 13:57",
 		"version":"0.0.3",
 		"Symptom_quarantine":6039,
 		"Symptom_release":16038
@@ -424,7 +424,8 @@
 			"country":"kr",
 			"hospital":"서울대병원",
 			"from":"종로노인복지관",
-			"from2":"종로",
+			"from2":"서울",
+			"from3":"종로",
 			"contact":117,
 			"wuhan":false,
 			"status":1,
@@ -438,7 +439,8 @@
 			"country":"kr",
 			"hospital":"서울대병원",
 			"from":"#29 부인",
-			"from2":"종로",
+			"from2":"서울",
+			"from3":"종로",
 			"contact":27,
 			"wuhan":false,
 			"status":1,
@@ -568,6 +570,7 @@
 			"from2":"경상북도",
 			"from3":"영천시",
 			"from3":"중앙동",
+			"contact":8,
 			"wuhan":false,
 			"status":1,
 			"s":1,
@@ -801,7 +804,8 @@
 			"country":"kr",
 			"hospital":"서울의료원",
 			"from":"종로노인복지관",
-			"from2":"종로",
+			"from2":"서울",
+			"from3":"종로",
 			"wuhan":false,
 			"status":1,
 			"confirmDate":"2020-02-19"
@@ -1160,7 +1164,7 @@
 		{
 			"num":82,
 			"sex":"m",
-			"age":63,
+			"age":62,
 			"parent":0,
 			"country":"kr",
 			"hospital":"확인중",
@@ -1174,12 +1178,13 @@
 		{
 			"num":83,
 			"sex":"m",
-			"age":56,
+			"age":76,
 			"parent":6,
 			"country":"kr",
-			"hospital":"확인중",
+			"hospital":"국립중앙의료원",
 			"from":"종로명륜교회",
-			"from2":"종로",
+			"from2":"서울",
+			"from3":"종로",
 			"wuhan":false,
 			"status":1,
 			"confirmDate":"2020-02-20"
@@ -1467,7 +1472,7 @@
 			"wuhan":false,
 			"s":1,
 			"status":1,
-			"confirmDate":"2020-02-21"
+			"confirmDate":"2020-02-20"
 		},
 		{
 			"num":106,
@@ -1482,7 +1487,7 @@
 			"wuhan":false,
 			"s":1,
 			"status":1,
-			"confirmDate":"2020-02-21"
+			"confirmDate":"2020-02-20"
 		},
 		{
 			"num":107,
@@ -1509,7 +1514,7 @@
 			"from3":"달성군",
 			"wuhan":false,
 			"status":1,
-			"confirmDate":"2020-02-21"
+			"confirmDate":"2020-02-20"
 		},
 		{
 			"num":109,
@@ -1523,7 +1528,7 @@
 			"from3":"수성구",
 			"wuhan":false,
 			"status":1,
-			"confirmDate":"2020-02-21"
+			"confirmDate":"2020-02-20"
 		},
 		{
 			"num":110,
@@ -1537,21 +1542,21 @@
 			"from3":"북구",
 			"wuhan":false,
 			"status":1,
-			"confirmDate":"2020-02-21"
+			"confirmDate":"2020-02-20"
 		},
 		{
 			"num":111,
 			"sex":"m",
-			"age":19,
+			"age":20,
 			"parent":0,
 			"country":"kr",
-			"hospital":"확인중",
+			"hospital":"국립중앙의료원",
 			"from":"국내 감염?",
 			"from2":"대구",
 			"from3":"남구",
 			"wuhan":false,
 			"status":1,
-			"confirmDate":"2020-02-21"
+			"confirmDate":"2020-02-20"
 		},
 		{
 			"num":112,
@@ -1559,11 +1564,11 @@
 			"age":79,
 			"parent":136,
 			"country":"kr",
-			"hospital":"확인중",
+			"hospital":"서울대학교병원",
 			"from":"#136 부인",
 			"wuhan":false,
 			"status":1,
-			"confirmDate":"2020-02-21"
+			"confirmDate":"2020-02-20"
 		},
 		{
 			"num":113,
@@ -1575,7 +1580,7 @@
 			"from":"국내 감염?",
 			"wuhan":false,
 			"status":1,
-			"confirmDate":"2020-02-21"
+			"confirmDate":"2020-02-20"
 		},
 		{
 			"num":114,
@@ -1589,7 +1594,7 @@
 			"from3":"달서구",
 			"wuhan":false,
 			"status":1,
-			"confirmDate":"2020-02-21"
+			"confirmDate":"2020-02-20"
 		},
 		{
 			"num":115,
@@ -1603,7 +1608,7 @@
 			"from3":"달서구",
 			"wuhan":false,
 			"status":1,
-			"confirmDate":"2020-02-21"
+			"confirmDate":"2020-02-20"
 		},
 		{
 			"num":116,
@@ -1617,7 +1622,7 @@
 			"from3":"달서구",
 			"wuhan":false,
 			"status":1,
-			"confirmDate":"2020-02-21"
+			"confirmDate":"2020-02-20"
 		},
 		{
 			"num":117,
@@ -1631,7 +1636,7 @@
 			"from3":"서구",
 			"wuhan":false,
 			"status":1,
-			"confirmDate":"2020-02-21"
+			"confirmDate":"2020-02-20"
 		},
 		{
 			"num":118,
@@ -1645,7 +1650,7 @@
 			"from3":"달서구",
 			"wuhan":false,
 			"status":1,
-			"confirmDate":"2020-02-21"
+			"confirmDate":"2020-02-20"
 		},
 		{
 			"num":119,
@@ -1659,7 +1664,7 @@
 			"from3":"동구",
 			"wuhan":false,
 			"status":1,
-			"confirmDate":"2020-02-21"
+			"confirmDate":"2020-02-20"
 		},
 		{
 			"num":120,
@@ -1673,20 +1678,21 @@
 			"from3":"수성구",
 			"wuhan":false,
 			"status":1,
-			"confirmDate":"2020-02-21"
+			"confirmDate":"2020-02-20"
 		},
 		{
 			"num":121,
-			"sex":"0",
-			"age":"?",
+			"sex":"w",
+			"age":76,
 			"parent":40,
 			"country":"kr",
-			"hospital":"확인중",
+			"hospital":"서울의료원",
 			"from":"#40 부인",
-			"from2":"서울 성동구",
+			"from2":"서울",
+			"from3":"성동구",
 			"wuhan":false,
 			"status":1,
-			"confirmDate":"2020-02-21"
+			"confirmDate":"2020-02-20"
 		},
 		{
 			"num":122,
@@ -1884,9 +1890,10 @@
 			"age":84,
 			"parent":83,
 			"country":"kr",
-			"hospital":"확인중",
+			"hospital":"서울대학교병원",
 			"from":"종로노인복지관",
-			"from2":"종로",
+			"from2":"서울",
+			"from3":"종로",
 			"wuhan":false,
 			"status":1,
 			"confirmDate":"2020-02-21"
@@ -1929,14 +1936,15 @@
 		},
 		{
 			"num":140,
-			"sex":"0",
-			"age":"?",
+			"sex":"w",
+			"age":32,
 			"parent":0,
 			"country":"kr",
-			"hospital":"확인중",
+			"hospital":"명지병원",
 			"from":"국내 감염?",
 			"wuhan":false,
 			"status":1,
+			"s":1,
 			"confirmDate":"2020-02-21"
 		},
 		{
@@ -2211,26 +2219,29 @@
 		},
 		{
 			"num":161,
-			"sex":"0",
-			"age":"?",
+			"sex":"m",
+			"age":35,
 			"parent":0,
 			"country":"kr",
-			"hospital":"확인중",
+			"hospital":"국립중앙의료원",
 			"from":"국내 감염?",
+		    "from2":"서울",
 			"wuhan":false,
 			"status":1,
-			"confirmDate":"2020-02-21"
+			"confirmDate":"2020-02-21",
+			"memo":"이송요원"
 		},
 		{
 			"num":162,
-			"sex":"0",
-			"age":"?",
+			"sex":"m",
+			"age":33,
 			"parent":0,
 			"country":"kr",
-			"hospital":"확인중",
+			"hospital":"명지병원",
 			"from":"국내 감염?",
 			"wuhan":false,
 			"status":1,
+			"s":1,
 			"confirmDate":"2020-02-21"
 		},
 		{
@@ -2535,12 +2546,13 @@
 		},
 		{
 			"num":188,
-			"sex":"0",
-			"age":"?",
+			"sex":"m",
+			"age":59,
 			"parent":0,
 			"country":"kr",
-			"hospital":"확인중",
+			"hospital":"국립중앙의료원",
 			"from":"국내 감염?",
+		    "from2":"서울",
 			"wuhan":false,
 			"status":1,
 			"confirmDate":"2020-02-21"
@@ -4471,12 +4483,13 @@
 		},
 		{
 		    "num":348,
-		    "sex":"0",
-		    "age":"?",
+		    "sex":"m",
+		    "age":40,
 		    "parent":0,
 		    "country":"kr",
-		    "hospital":"확인중",
+		    "hospital":"국립중앙의료원",
 		    "from":"국내 감염?",
+		    "from2":"서울",
 		    "wuhan":false,
 		    "status":1,
 		    "confirmDate":"2020-02-22"
@@ -4675,12 +4688,13 @@
 		},
 		{
 		    "num":365,
-		    "sex":"0",
-		    "age":"?",
-		    "parent":0,
+		    "sex":"m",
+		    "age":62,
+		    "parent":161,
 		    "country":"kr",
-		    "hospital":"확인중",
+		    "hospital":"서울대학교병원",
 		    "from":"국내 감염?",
+		    "from2":"서울",
 		    "wuhan":false,
 		    "status":1,
 		    "confirmDate":"2020-02-22"
@@ -5335,12 +5349,13 @@
 		},
 		{
 		    "num":420,
-		    "sex":"0",
-		    "age":"?",
+		    "sex":"m",
+		    "age":34,
 		    "parent":0,
 		    "country":"kr",
-		    "hospital":"확인중",
+		    "hospital":"서울의료원",
 		    "from":"국내 감염?",
+		    "from2":"서울",
 		    "wuhan":false,
 		    "status":1,
 		    "confirmDate":"2020-02-22"
