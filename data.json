@@ -776,8 +776,10 @@
 			"hospital":"포항의료원",
 			"from":"국내 감염?",
 			"wuhan":false,
-			"status":1,
-			"confirmDate":"2020-02-19"
+			"status":0,
+			"confirmDate":"2020-02-19",
+			"deathDate":"2020-02-22",
+			"memo":"청도 대남병원 사례"
 		},
 		{
 			"num":55,
@@ -5496,7 +5498,7 @@
 		    "hospital":"확인중",
 		    "from":"국내 감염?",
 		    "wuhan":false,
-		    "status":0,
+		    "status":1,
 		    "confirmDate":"2020-02-22"
 		},
 		{
@@ -5508,7 +5510,7 @@
 		    "hospital":"확인중",
 		    "from":"국내 감염?",
 		    "wuhan":false,
-		    "status":0,
+		    "status":1,
 		    "confirmDate":"2020-02-23"
 		},
 		{
@@ -5609,15 +5611,16 @@
 		},
 		{
 		    "num":443,
-		    "sex":"0",
-		    "age":"?",
+		    "sex":"m",
+		    "age":41,
 		    "parent":0,
 		    "country":"kr",
 		    "hospital":"확인중",
 		    "from":"국내 감염?",
 		    "wuhan":false,
-		    "status":1,
-		    "confirmDate":"2020-02-23"
+		    "status":0,
+		    "confirmDate":"2020-02-23",
+			"deathDate":"2020-02-22"
 		},
 		{
 		    "num":444,
