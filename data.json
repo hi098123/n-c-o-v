@@ -1,6 +1,6 @@
 {
 	"info":{
-		"update":"2020-02-24 10:24",
+		"update":"2020-02-24 14:09",
 		"version":"0.0.3",
 		"Symptom_quarantine":8725,
 		"Symptom_release":19127
@@ -136,8 +136,9 @@
 			"from":"#5 지인",
 			"from2":"서울",
 			"wuhan":false,
-			"status":1,
-			"confirmDate":"2020-01-31"
+			"status":2,
+			"confirmDate":"2020-01-31",
+			"dischargeDate":"2020-02-24"
 		},
 		{
 			"num":10,
@@ -195,8 +196,9 @@
 			"from":"우한 교민",
 			"from2":"충남",
 			"wuhan":true,
-			"status":1,
-			"confirmDate":"2020-02-02"
+			"status":2,
+			"confirmDate":"2020-02-02",
+			"dischargeDate":"2020-02-24"
 		},
 		{
 			"num":14,
@@ -224,8 +226,9 @@
 			"from":"우한 방문",
 			"from2":"경기",
 			"wuhan":true,
-			"status":1,
-			"confirmDate":"2020-02-02"
+			"status":2,
+			"confirmDate":"2020-02-02",
+			"dischargeDate":"2020-02-24"
 		},
 		{
 			"num":16,
@@ -298,8 +301,9 @@
 			"from2":"경기",
 			"contact":2,
 			"wuhan":false,
-			"status":1,
-			"confirmDate":"2020-02-05"
+			"status":2,
+			"confirmDate":"2020-02-05",
+			"dischargeDate":"2020-02-24"
 		},
 		{
 			"num":21,
@@ -782,7 +786,7 @@
 			"wuhan":false,
 			"status":0,
 			"confirmDate":"2020-02-19",
-			"deathDate":"2020-02-22",
+			"deathDate":"2020-02-23",
 			"memo":"청도 대남병원 사례"
 		},
 		{
@@ -1455,7 +1459,7 @@
 			"age":"?",
 			"parent":0,
 			"country":"kr",
-			"hospital":"확인중",
+			"hospital":"치료받지못함",
 			"from":"국내 감염?",
 			"wuhan":false,
 			"status":0,
@@ -5647,10 +5651,10 @@
 		{
 		    "num":443,
 		    "sex":"m",
-		    "age":41,
+		    "age":40,
 		    "parent":0,
 		    "country":"kr",
-		    "hospital":"확인중",
+		    "hospital":"치료받지못함",
 		    "from":"국내 감염?",
 		    "wuhan":false,
 		    "status":0,
