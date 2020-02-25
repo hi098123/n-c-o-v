@@ -3231,6 +3231,8 @@
 		    "country":"kr",
 		    "hospital":"김천의료원",
 		    "from":"국내 감염?",
+			"from2":"경상북도",
+			"from3":"영천시",
 		    "wuhan":false,
 		    "status":1,
 		    "confirmDate":"2020-02-20"
@@ -3255,6 +3257,8 @@
 		    "country":"kr",
 		    "hospital":"김천의료원",
 		    "from":"국내 감염?",
+			"from2":"경상북도",
+			"from3":"영천시",
 		    "wuhan":false,
 		    "status":1,
 		    "confirmDate":"2020-02-21"
@@ -4354,6 +4358,8 @@
 		    "country":"kr",
 		    "hospital":"충남대병원",
 		    "from":"국내 감염?",
+			"from2":"경상북도",
+			"from3":"영천시",
 		    "wuhan":false,
 		    "status":1,
 		    "confirmDate":"2020-02-21"
@@ -6140,12 +6146,14 @@
 		},
 		{
 		    "num":481,
-		    "sex":"0",
-		    "age":"?",
+		    "sex":"w",
+		    "age":55,
 		    "parent":0,
 		    "country":"kr",
 		    "hospital":"확인중",
 		    "from":"국내 감염?",
+			"from2":"경상북도",
+			"from3":"영천시",
 		    "wuhan":false,
 		    "status":1,
 		    "confirmDate":"2020-02-23"
@@ -8919,15 +8927,17 @@
 		},
 		{
 		    "num":711,
-		    "sex":"0",
-		    "age":"?",
+		    "sex":"m",
+		    "age":57,
 		    "parent":0,
 		    "country":"kr",
 		    "hospital":"확인중",
 		    "from":"국내 감염?",
+			"from2":"경상북도",
+			"from3":"영천시",
 		    "wuhan":false,
 		    "status":1,
-		    "confirmDate":"2020-02-24"
+		    "confirmDate":"2020-02-23"
 		},
 		{
 		    "num":712,
@@ -8979,27 +8989,31 @@
 		},
 		{
 		    "num":716,
-		    "sex":"0",
-		    "age":"?",
+		    "sex":"w",
+		    "age":64,
 		    "parent":0,
 		    "country":"kr",
 		    "hospital":"확인중",
 		    "from":"국내 감염?",
+			"from2":"경상북도",
+			"from3":"영천시",
 		    "wuhan":false,
 		    "status":1,
-		    "confirmDate":"2020-02-24"
+		    "confirmDate":"2020-02-23"
 		},
 		{
 		    "num":717,
-		    "sex":"0",
-		    "age":"?",
+		    "sex":"w",
+		    "age":42,
 		    "parent":0,
 		    "country":"kr",
 		    "hospital":"확인중",
 		    "from":"국내 감염?",
+			"from2":"경상북도",
+			"from3":"영천시",
 		    "wuhan":false,
 		    "status":1,
-		    "confirmDate":"2020-02-24"
+		    "confirmDate":"2020-02-23"
 		},
 		{
 		    "num":718,
@@ -9483,12 +9497,14 @@
 		},
 		{
 		    "num":758,
-		    "sex":"0",
-		    "age":"?",
+		    "sex":"m",
+		    "age":52,
 		    "parent":0,
 		    "country":"kr",
 		    "hospital":"확인중",
 		    "from":"국내 감염?",
+			"from2":"경상북도",
+			"from3":"영천시",
 		    "wuhan":false,
 		    "status":1,
 		    "confirmDate":"2020-02-24"
