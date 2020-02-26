@@ -1,9 +1,9 @@
 {
 	"info":{
-		"update":"2020-02-26 14:00",
+		"update":"2020-02-26 14:41",
 		"version":"0.0.3",
-		"Symptom_quarantine":13880,
-		"Symptom_release":25447
+		"Symptom_quarantine":16734,
+		"Symptom_release":28247
 	},
 	"data":[
 		{
@@ -546,8 +546,9 @@
 			"from3":"영천시",
 			"from4":"동부동",
 			"wuhan":false,
-			"status":1,
-			"confirmDate":"2020-02-18"
+			"status":2,
+			"confirmDate":"2020-02-18",
+			"dischargeDate":"2020-02-26"
 		},
 		{
 			"num":38,
@@ -1601,8 +1602,9 @@
 			"from2":"대구",
 			"from3":"달서구",
 			"wuhan":false,
-			"status":1,
-			"confirmDate":"2020-02-20"
+			"status":0,
+			"confirmDate":"2020-02-20",
+			"deathDate":"2020-02-26"
 		},
 		{
 			"num":115,
