@@ -9452,16 +9452,27 @@
 		    "confirmDate":"2020-02-24"
 		},
 		{
-		    "num":754,
-		    "sex":"w",
-		    "age":25,
-		    "parent":0,
+			"num":754,
+		    "sex":"m",
+		    "age":75,
+		    "parent":627,
 		    "country":"kr",
-		    "hospital":"보라매병원",
-		    "from":"국내 감염?",
+		    "hospital":"한일병원",
+		    "from":"#627 접촉",
 		    "wuhan":false,
 		    "status":1,
-		    "confirmDate":"2020-02-23"
+		    "confirmDate":"2020-02-26",
+		    "num_before":754,
+		    "sex_before":"w",
+		    "age_before":25,
+		    "parent_before":0,
+		    "country_before":"kr",
+		    "hospital_before":"보라매병원",
+		    "from_before":"국내 감염?",
+		    "wuhan_before":false,
+		    "status_before":1,
+		    "confirmDate_before":"2020-02-23",
+		    "memo_before":"최종 음성판정으로 자리가 비어 대체된것으로 보임"
 		},
 		{
 		    "num":755,
@@ -12361,15 +12372,15 @@
 		},
 		{
 		    "num":996,
-		    "sex":"0",
-		    "age":"?",
+		    "sex":"m",
+		    "age":43,
 		    "parent":0,
 		    "country":"kr",
-		    "hospital":"확인중",
+		    "hospital":"보라매병원",
 		    "from":"국내 감염?",
 		    "wuhan":false,
 		    "status":1,
-		    "confirmDate":"2020-02-26"
+		    "confirmDate":"2020-02-25"
 		},
 		{
 		    "num":997,
@@ -12673,15 +12684,15 @@
 		},
 		{
 		    "num":1022,
-		    "sex":"0",
-		    "age":"?",
+		    "sex":"w",
+		    "age":25,
 		    "parent":0,
 		    "country":"kr",
-		    "hospital":"확인중",
+		    "hospital":"서남병원",
 		    "from":"국내 감염?",
 		    "wuhan":false,
 		    "status":1,
-		    "confirmDate":"2020-02-26"
+		    "confirmDate":"2020-02-25"
 		},
 		{
 		    "num":1023,
@@ -12733,15 +12744,15 @@
 		},
 		{
 		    "num":1027,
-		    "sex":"0",
-		    "age":"?",
+		    "sex":"m",
+		    "age":62,
 		    "parent":0,
 		    "country":"kr",
-		    "hospital":"확인중",
+		    "hospital":"보라매병원",
 		    "from":"국내 감염?",
 		    "wuhan":false,
 		    "status":1,
-		    "confirmDate":"2020-02-26"
+		    "confirmDate":"2020-02-25"
 		},
 		{
 		    "num":1028,
@@ -13825,15 +13836,15 @@
 		},
 		{
 		    "num":1118,
-		    "sex":"0",
-		    "age":"?",
+		    "sex":"m",
+		    "age":41,
 		    "parent":0,
 		    "country":"kr",
-		    "hospital":"확인중",
+		    "hospital":"국립중앙의료원",
 		    "from":"국내 감염?",
 		    "wuhan":false,
 		    "status":1,
-		    "confirmDate":"2020-02-26"
+		    "confirmDate":"2020-02-25"
 		},
 		{
 		    "num":1119,
@@ -15433,15 +15444,16 @@
 		},
 		{
 		    "num":1252,
-		    "sex":"0",
-		    "age":"?",
+		    "sex":"w",
+		    "age":40,
 		    "parent":0,
 		    "country":"kr",
 		    "hospital":"확인중",
 		    "from":"국내 감염?",
 		    "wuhan":false,
 		    "status":1,
-		    "confirmDate":"2020-02-26"
+		    "confirmDate":"2020-02-26",
+		    "memo":"성세병원에 근무하는 간호사"
 		},
 		{
 		    "num":1253,
@@ -15481,8 +15493,8 @@
 		},
 		{
 		    "num":1256,
-		    "sex":"0",
-		    "age":"?",
+		    "sex":"m",
+		    "age":33,
 		    "parent":0,
 		    "country":"kr",
 		    "hospital":"확인중",
@@ -15493,8 +15505,8 @@
 		},
 		{
 		    "num":1257,
-		    "sex":"0",
-		    "age":"?",
+		    "sex":"w",
+		    "age":39,
 		    "parent":0,
 		    "country":"kr",
 		    "hospital":"확인중",
