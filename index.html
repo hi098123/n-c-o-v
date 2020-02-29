@@ -20,6 +20,7 @@
     <meta name="description" content="코로나19(신종 코로나 바이러스 감염증, 우한 폐렴) 감염자들의 관계도를 그린 페이지입니다.">
     <meta property="og:url" content="https://ncov-korea.com/" >
     <meta property="og:site_name" content="COVID-19(2019-nCov) 한국 감염표" >
+    <meta property="og:description" content="코로나19 감염자들의 관계도를 그린 페이지입니다.">
     <meta property="og:title" content="COVID-19(2019-nCov) 한국 감염표" >
     <meta property="og:image" content="/imgs/main.png" />
     <meta property="og:type" content="website" />
@@ -127,23 +128,23 @@
 <div style="text-align: center;max-width: 1200px;margin: auto;">
     <div class="sido_">
         <h3>▶ 전국 현황 (확진자 수)</h3>
-        <img src="./imgs/confirm.png">
+        <img id="png-confirm" src="./imgs/confirm.png" alt="전국 현황 (확진자 수)">
     </div>
     <div class="sido_">
         <h3>▶ 전국 현황 (확진자 증가 수)</h3>
-        <img src="./imgs/plus.png">
+        <img id="png-plus" src="./imgs/plus.png" alt="전국 현황 (확진자 증가 수)">
     </div>
     <div class="sido_">
         <h3>▶ 전국 현황 (사망자 수)</h3>
-        <img src="./imgs/death.png">
+        <img id="png-death" src="./imgs/death.png" alt="전국 현황 (사망자 수)">
     </div>
     <div class="sido_">
         <h3>▶ 전국 현황 (검사중 인원)</h3>
-        <img src="./imgs/check.png">
+        <img id="png-check" src="./imgs/check.png" alt="전국 현황 (검사중 인원)">
     </div>
     <div class="sido_">
         <h3>▶ 전국 현황 (검사합계 인원)</h3>
-        <img src="./imgs/check_all.png">
+        <img id="png-check_all" src="./imgs/check_all.png" alt="전국 현황 (검사합계 인원)">
     </div>
     <div class="sido_">
         <h3>▶ 공식 사이트</h3>
@@ -166,6 +167,7 @@
             <a class="sido" href="http://www.gyeongnam.go.kr/corona.html" target="_blank">경남</a>
             <a class="sido" href="https://www.jeju.go.kr/corona19.jsp" target="_blank">제주</a>
         </div>
+        <p>이 정보는 <a href="http://ncov.mohw.go.kr/bdBoardList_Real.do?brdId=1&brdGubun=13&ncvContSeq=&contSeq=&board_id=&gubun=" target="_blank" style="color: #1565c0;">질병관리본부 시도별 자료</a>를 바탕으로 제작되었습니다.</p>
         <!--<h3>▶ 사이트 복제본(마비시 이용)</h3>
         <div class="sido_">
             <a class="sido" href="" target="_blank">서울</a>
@@ -217,7 +219,7 @@
                 <canvas id="Day_stats" width="400" height="200"></canvas>
             </div>
             <br>
-            <h4>연령대 통계</h4>
+            <h4>연령대 통계 (정보가 없는경우 표시되지 않음)</h4>
             <div style="max-width: 800px;">
                 <canvas id="Age_stats" width="400" height="200"></canvas>
             </div>
