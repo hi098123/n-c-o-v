@@ -316,8 +316,9 @@
 			"from2":"서울",
 			"contact":6,
 			"wuhan":false,
-			"status":1,
-			"confirmDate":"2020-02-05"
+			"status":2,
+			"confirmDate":"2020-02-05",
+			"dischargeDate":"2020-02-29"
 		},
 		{
 			"num":22,
@@ -345,8 +346,9 @@
 			"from2":"서울",
 			"contact":23,
 			"wuhan":true,
-			"status":1,
-			"confirmDate":"2020-02-06"
+			"status":2,
+			"confirmDate":"2020-02-06",
+			"dischargeDate":"2020-02-29"
 		},
 		{
 			"num":24,
@@ -374,9 +376,9 @@
 			"from2":"경기",
 			"contact":12,
 			"wuhan":false,
-			"status":2,
+			"status":1,
 			"confirmDate":"2020-02-09",
-			"dischargeDate":"2020-02-22"
+			"dischargeDate_before":"2020-02-22"
 		},
 		{
 			"num":26,
@@ -5074,15 +5076,16 @@
 		},
 		{
 		    "num":392,
-		    "sex":"0",
-		    "age":"?",
+		    "sex":"m",
+		    "age":54,
 		    "parent":0,
 		    "country":"kr",
 		    "hospital":"확인중",
 		    "from":"국내 감염?",
+		    "from2":"경기",
 		    "wuhan":false,
 		    "status":1,
-		    "confirmDate":"2020-02-22"
+		    "confirmDate":"2020-02-23"
 		},
 		{
 		    "num":393,
@@ -5570,15 +5573,15 @@
 		},
 		{
 		    "num":433,
-		    "sex":"0",
-		    "age":"?",
+		    "sex":"w",
+		    "age":66,
 		    "parent":0,
 		    "country":"kr",
 		    "hospital":"확인중",
 		    "from":"국내 감염?",
 		    "wuhan":false,
 		    "status":1,
-		    "confirmDate":"2020-02-22"
+		    "confirmDate":"2020-02-23"
 		},
 		{
 		    "num":434,
@@ -5671,7 +5674,7 @@
 		{
 		    "num":441,
 		    "sex":"w",
-		    "age":"?",
+		    "age":61,
 		    "parent":246,
 		    "country":"kr",
 		    "hospital":"확인중",
@@ -6240,7 +6243,7 @@
 		{
 		    "num":488,
 		    "sex":"w",
-		    "age":"?",
+		    "age":52,
 		    "parent":347,
 		    "country":"kr",
 		    "hospital":"확인중",
@@ -7172,7 +7175,7 @@
 		{
 		    "num":565,
 		    "sex":"m",
-		    "age":"?",
+		    "age":39,
 		    "parent":246,
 		    "country":"kr",
 		    "hospital":"확인중",
@@ -7284,12 +7287,13 @@
 		},
 		{
 		    "num":574,
-		    "sex":"0",
-		    "age":"?",
+		    "sex":"m",
+		    "age":23,
 		    "parent":0,
 		    "country":"kr",
 		    "hospital":"확인중",
 		    "from":"국내 감염?",
+		    "from":"경기",
 		    "wuhan":false,
 		    "status":1,
 		    "confirmDate":"2020-02-23"
@@ -7719,15 +7723,15 @@
 		},
 		{
 		    "num":610,
-		    "sex":"0",
-		    "age":"?",
+		    "sex":"w",
+		    "age":27,
 		    "parent":0,
 		    "country":"kr",
 		    "hospital":"확인중",
 		    "from":"국내 감염?",
 		    "wuhan":false,
 		    "status":1,
-		    "confirmDate":"2020-02-24"
+		    "confirmDate":"2020-02-23"
 		},
 		{
 		    "num":611,
@@ -8166,15 +8170,15 @@
 		},
 		{
 		    "num":647,
-		    "sex":"0",
-		    "age":"?",
+		    "sex":"w",
+		    "age":1,
 		    "parent":0,
 		    "country":"kr",
 		    "hospital":"확인중",
 		    "from":"국내 감염?",
 		    "wuhan":false,
 		    "status":1,
-		    "confirmDate":"2020-02-24"
+		    "confirmDate":"2020-02-23"
 		},
 		{
 		    "num":648,
@@ -8190,15 +8194,16 @@
 		},
 		{
 		    "num":649,
-		    "sex":"0",
-		    "age":"?",
+		    "sex":"m",
+		    "age":67,
 		    "parent":0,
 		    "country":"kr",
 		    "hospital":"확인중",
 		    "from":"국내 감염?",
+		    "from2":"경기",
 		    "wuhan":false,
 		    "status":1,
-		    "confirmDate":"2020-02-24"
+		    "confirmDate":"2020-02-23"
 		},
 		{
 		    "num":650,
@@ -15351,15 +15356,16 @@
 		},
 		{
 		    "num":1244,
-		    "sex":"0",
-		    "age":"?",
+		    "sex":"m",
+		    "age":51,
 		    "parent":0,
 		    "country":"kr",
 		    "hospital":"확인중",
 		    "from":"국내 감염?",
+		    "from2":"경기",
 		    "wuhan":false,
 		    "status":1,
-		    "confirmDate":"2020-02-26"
+		    "confirmDate":"2020-02-22"
 		},
 		{
 		    "num":1245,
@@ -28492,8 +28498,9 @@
 		    "hospital":"확인중",
 		    "from":"국내 감염?",
 		    "wuhan":false,
-		    "status":1,
-		    "confirmDate":"2020-02-29"
+		    "status":0,
+		    "confirmDate":"2020-02-29",
+		    "deathDate":"2020-02-29"
 		},
 		{
 		    "num":2339,
